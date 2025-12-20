@@ -1,0 +1,44 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+input[type="button"] {
+    width: 90px;
+    height: 90px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #555;
+    transition: 0.2s;
+}
+
+input[type="button"]:hover:not(:disabled) {
+    background-color: #ddd;
+}
+
+h1, #turno, #risp {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#risp {
+    color: #d35400;
+    font-weight: bold;
+}
