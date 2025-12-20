@@ -1,0 +1,17 @@
+table, th, td{
+    border: 2px solid black;
+}
+body{
+    background-color: chocolate;
+}
+main{
+    border-radius: 10px;
+    background-color: brown;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+form, div{
+    padding: 20px;
+}

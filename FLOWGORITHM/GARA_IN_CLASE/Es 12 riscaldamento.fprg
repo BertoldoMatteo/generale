@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Loren"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-09 09:13:37 "/>
+        <attribute name="created" value="TG9yZW47TEFQVE9QLTZBME1PSEY1OzIwMjUtMTAtMDk7IjA5OjA4OjQ5ICI7Mjc0Mw=="/>
+        <attribute name="edited" value="TG9yZW47TEFQVE9QLTZBME1PSEY1OzIwMjUtMTAtMDk7IjA5OjEzOjM3ICI7MTsyODQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, t1, t2, t3, v" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci valore limite&quot;" newline="True"/>
+            <input variable="v"/>
+            <output expression="&quot;Inserisci le tre temperature&quot;" newline="True"/>
+            <input variable="t1"/>
+            <input variable="t2"/>
+            <input variable="t3"/>
+            <assign variable="m" expression="(t1+t2+t3)/3"/>
+            <if expression="m&lt;v">
+                <then>
+                    <output expression="&quot;Il riscaldamento viene acceso&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il riscaldamento non viene acceso&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 10:00:11 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMDk6MjE6MTEgIjsyNTU0"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MDA6MTEgIjsxOzI2NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, c, i" type="Integer" array="False" size=""/>
+            <declare name="s" type="String" array="False" size=""/>
+            <assign variable="s" expression="&quot;&quot;"/>
+            <output expression="&quot;Inserire il numero di righe&quot;" newline="True"/>
+            <input variable="r"/>
+            <while expression="r&lt;=0">
+                <output expression="&quot;VALORE NON VALIDO&quot;" newline="True"/>
+                <input variable="r"/>
+            </while>
+            <output expression="&quot;Inserire il numero di colonne&quot;" newline="True"/>
+            <input variable="c"/>
+            <while expression="c&lt;=0">
+                <output expression="&quot;VALORE NON VALIDO&quot;" newline="True"/>
+                <input variable="c"/>
+            </while>
+            <for variable="i" start="1" end="c" direction="inc" step="1">
+                <assign variable="s" expression="s&amp;&quot;* &quot;"/>
+            </for>
+            <assign variable="r" expression="r-1"/>
+            <if expression="r!=0">
+                <then>
+                    <while expression="r&gt;1">
+                        <assign variable="s" expression="s&amp;&quot;  &#13;&#10;* &quot;"/>
+                        <for variable="i" start="1" end="c-2" direction="inc" step="1">
+                            <assign variable="s" expression="s&amp;&quot;Q&quot;"/>
+                        </for>
+                        <assign variable="s" expression="s&amp;&quot;*&quot;"/>
+                        <assign variable="r" expression="r-1"/>
+                    </while>
+                    <assign variable="s" expression="s&amp;&quot; &#13;&#10;* &quot;"/>
+                    <for variable="i" start="1" end="c-1" direction="inc" step="1">
+                        <assign variable="s" expression="s&amp;&quot;* &quot;"/>
+                    </for>
+                </then>
+                <else/>
+            </if>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

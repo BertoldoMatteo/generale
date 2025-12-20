@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-08 03:45:31 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wODsiMDM6Mzk6MzMgIjsyNTYx"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wODsiMDM6NDU6MzEgIjsxOzI2NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="g" type="Integer" array="False" size=""/>
+            <comment text="Giorni di utilizzo dell'auto"/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <comment text="prezzo da pagare per il noleggio"/>
+            <output expression="&quot;Inserire il numero di giorni di utilizzo dell'auto&quot;" newline="True"/>
+            <input variable="g"/>
+            <while expression="g&lt;0">
+                <output expression="&quot;Il valore di giorni non pu&#242; essere negativo.&#13;&#10;Riprova&quot;" newline="True"/>
+                <input variable="g"/>
+            </while>
+            <if expression="g&gt;6">
+                <then>
+                    <assign variable="p" expression="g*27"/>
+                </then>
+                <else>
+                    <assign variable="p" expression="g*30"/>
+                </else>
+            </if>
+            <output expression="&quot;Il prezzo da pagare per il noleggio &#232; di &quot; &amp; p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="14529942"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 10:26:52 "/>
+        <attribute name="created" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MTc6MzkgIjsyMTA4"/>
+        <attribute name="edited" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MjY6NTIgIjsxOzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, P, S, flag" type="Integer" array="False" size=""/>
+            <output expression="&quot;Data N numeri calcolare la somma dei numeri pari ed il prodotto dei numeri dispari&quot;" newline="True"/>
+            <output expression="&quot;Per fermare il programma digitare 0&quot;" newline="True"/>
+            <assign variable="S" expression="0"/>
+            <assign variable="P" expression="1"/>
+            <assign variable="flag" expression="0"/>
+            <do expression="N!=0">
+                <output expression="&quot;Inserire il numero:&quot;" newline="True"/>
+                <input variable="N"/>
+                <if expression="n%2==0">
+                    <then>
+                        <assign variable="S" expression="S+N"/>
+                    </then>
+                    <else>
+                        <assign variable="P" expression="P*N"/>
+                        <assign variable="flag" expression="1"/>
+                    </else>
+                </if>
+            </do>
+            <if expression="flag=0">
+                <then>
+                    <assign variable="P" expression="0"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;La somma dei numeri pari &#232; &quot; &amp; S" newline="True"/>
+            <output expression="&quot;Il prodotto dei numeri dispari &#232; &quot; &amp; P" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

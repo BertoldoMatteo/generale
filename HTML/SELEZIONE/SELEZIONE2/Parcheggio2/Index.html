@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abbonamento palestra</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Abbonamento Palestra</h1>
+        <p>Programma che calcola l'abbonamento secondo i seguenti criteri</p>
+        <article>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th colspan="2">Tipo parcheggio</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>C(Coperto)</th>
+                <th>S(Scoperto)</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Mezzo</th>
+                <th>A(Auto)</th>
+                <td>0.025€/min</td>
+                <td>0.015€/min</td>
+            </tr>
+            <tr>
+                <th>M(Moto)</th>
+                <td>0.013€/min</td>
+                <td>0.010€/min</td>
+            </tr>
+            </table>
+            <p>COSTO PROGRESSIVO DEL PARCHEGGIO</p>
+            <table>
+                <tr>
+                    <td>1-60 min</td>
+                    <td>tariffa base</td>
+                </tr>
+                <tr>
+                    <td>61-120 min</td>
+                    <td>70% della tariffa base</td>
+                </tr>
+                <tr>
+                    <td>sopra 120 min</td>
+                    <td>50% della tariffa base</td>
+                </tr>
+            </table>
+            <label for="mezzo">Inserisci il mezzo [A/M]</label>
+            <input type="text" id="mezzo">
+            <label for="tipo">Inserisci il tipo parcheggio [C/S]</label>
+            <input type="text" id="tipo">
+            <label for="tempo">Tempo [min]</label>
+            <input type="text" id="tempo">
+        </article>
+        <article>
+            <input type="button" onclick="parcheggio()" value="Calcola Parcheggio">
+            <div id="risposta"></div>
+        </article>
+    </main>
+</body>
+</html>

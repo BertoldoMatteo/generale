@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 10:42:11 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6Mjc6NTMgIjsyNTU4"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6NDI6MTEgIjsxOzI2NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LI, X, Y, C" type="Real" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ci sia un lavandino parzialmente otturato in cui ogni secondo riesce a scaricare solo x cl di acqua e ci sia un rubinetto perde nel lavandino, facendo cadere delle gocce d&#8217;acqua nel lavandino per un totale di y cl di acqua tutte in una volta ogni 3 secondi. Si crei un programma in cui si facciano inserire all&#8217;utente i valori di x e y, il livello iniziale dell&#8217;acqua e la capacit&#224; del lavandino. Il programma deve scrivere l&#8217;andamento del livello dell&#8217;acqua ogni secondo fino a un massimo di 20 secondi, o fermandosi prima nei casi in cui o il lavandino si &#232; svuotato completamente o se l&#8217;acqua ha riempito totalmente il lavandino (o ha strabordato).&quot;" newline="True"/>
+            <assign variable="s" expression="0"/>
+            <output expression="&quot;Inserisci il valore di X&quot;" newline="True"/>
+            <input variable="X"/>
+            <output expression="&quot;Inserisci il valore di Y&quot;" newline="True"/>
+            <input variable="Y"/>
+            <output expression="&quot;Inserisci il valore iniziale&quot;" newline="True"/>
+            <input variable="LI"/>
+            <output expression="&quot;Inserisci la capacit&#224; del lavandino&quot;" newline="True"/>
+            <input variable="C"/>
+            <while expression="s!=20 &amp;&amp; LI&lt;C &amp;&amp; LI&gt;0">
+                <assign variable="s" expression="s+1"/>
+                <assign variable="LI" expression="LI-X"/>
+                <if expression="s%3==0">
+                    <then>
+                        <assign variable="LI" expression="LI+Y"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="s&amp;&quot; SECONDI: Il livello dell'acqua &#232; di &quot;&amp;LI&amp;&quot;cl su &quot;&amp;C&amp;&quot;cl&quot;" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

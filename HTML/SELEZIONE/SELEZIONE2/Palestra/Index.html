@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Abbonamento palestra</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Abbonamento Palestra</h1>
+        <p>Programma che calcola l'abbonamento secondo i seguenti criteri</p>
+        <article>
+        <table>
+            <tr>
+                <th colspan="2"></th>
+                <th>F1(mattina)</th>
+                <th>F2(pomeriggio)</th>
+            </tr>
+            <tr>
+                <th rowspan="2">SESSO</th>
+                <td><input type="radio" name="sesso" value="M"><label for="maschio">M</label></td>
+                <td>10€/mese</td>
+                <td>15€/mese</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="sesso" value="F"><label for="femmina">F</label></td>
+                <td>7€/mese</td>
+                <td>11€/mese</td>
+            </tr>
+        </table>
+        </article>
+        <article>
+            <select id="fascia">
+                <option value=""></option>
+                <option value="F1">Fascia 1</option>
+                <option value="F2">Fascia 2</option>
+            </select>
+            <input type="number" placeholder="Inserisci il numero di mesi" id="mesi">
+            <input type="button" onclick="abbonamento()" value="Calcola Abbonamento">
+            <div id="risposta"></div>
+        </article>
+    </main>
+</body>

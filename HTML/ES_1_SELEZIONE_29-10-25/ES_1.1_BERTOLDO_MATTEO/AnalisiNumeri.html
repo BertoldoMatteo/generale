@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnalisiNumeri</title>
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <h3>Inserire due numeri da tastiera, 
+        detti A e B, e il programma determinerà 
+        le seguenti informazioni, 
+        visualizzate nell'elenco</h3>
+    <input type="number" id="num1" placeholder="Inserisci A">
+    <input type="number" id="num2" placeholder="Inserisci B">
+    <select id="mySelect">
+        <option value="0">B>=0</option>
+        <option value="1">A pari o dispari?</option>
+        <option value="2">A+B</option>
+        <option value="3">(+-A)+(+-B)</option>
+    </select>
+    <button onclick="controlla()">Controlla</button>
+    <div id="output"></div>
+</body>
+</html>

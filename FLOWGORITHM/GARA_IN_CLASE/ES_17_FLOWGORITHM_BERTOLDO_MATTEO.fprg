@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-09 09:49:18 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6Mjg6NTAgIjsyNTY1"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6NDk6MTggIjsxOzI2ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, Ma, c" type="Boolean" array="False" size=""/>
+            <declare name="s" type="String" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci il primo carattere della password&quot;" newline="True"/>
+            <input variable="s"/>
+            <assign variable="n" expression="ToCode(s)"/>
+            <assign variable="c" expression="False"/>
+            <assign variable="Ma" expression="False"/>
+            <assign variable="m" expression="False"/>
+            <if expression="n&lt;=57 &amp;&amp; n&gt;=48">
+                <then>
+                    <assign variable="c" expression="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;=90 &amp;&amp; n&gt;=65">
+                        <then>
+                            <assign variable="Ma" expression="True"/>
+                        </then>
+                        <else>
+                            <if expression="n&lt;=122 &amp;&amp; n&gt;=97">
+                                <then>
+                                    <assign variable="m" expression="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Inserisci il secondo carattere della password&quot;" newline="True"/>
+            <input variable="s"/>
+            <assign variable="n" expression="ToCode(s)"/>
+            <if expression="n&lt;=57 &amp;&amp; n&gt;=48">
+                <then>
+                    <assign variable="c" expression="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;=90 &amp;&amp; n&gt;=65">
+                        <then>
+                            <assign variable="Ma" expression="True"/>
+                        </then>
+                        <else>
+                            <if expression="n&lt;=122 &amp;&amp; n&gt;=97">
+                                <then>
+                                    <assign variable="m" expression="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Inserisci il terzo carattere della password&quot;" newline="True"/>
+            <input variable="s"/>
+            <assign variable="n" expression="ToCode(s)"/>
+            <if expression="n&lt;=57 &amp;&amp; n&gt;=48">
+                <then>
+                    <assign variable="c" expression="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;=90 &amp;&amp; n&gt;=65">
+                        <then>
+                            <assign variable="Ma" expression="True"/>
+                        </then>
+                        <else>
+                            <if expression="n&lt;=122 &amp;&amp; n&gt;=97">
+                                <then>
+                                    <assign variable="m" expression="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Inserisci il quarto carattere della password&quot;" newline="True"/>
+            <input variable="s"/>
+            <assign variable="n" expression="ToCode(s)"/>
+            <if expression="n&lt;=57 &amp;&amp; n&gt;=48">
+                <then>
+                    <assign variable="c" expression="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;=90 &amp;&amp; n&gt;=65">
+                        <then>
+                            <assign variable="Ma" expression="True"/>
+                        </then>
+                        <else>
+                            <if expression="n&lt;=122 &amp;&amp; n&gt;=97">
+                                <then>
+                                    <assign variable="m" expression="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="Ma=True &amp;&amp; m=True &amp;&amp; c=True">
+                <then>
+                    <output expression="&quot;Password valida&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Password non valida&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

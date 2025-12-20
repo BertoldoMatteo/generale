@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(160, 228, 242);
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+h2{
+    color:rgb(121, 26, 2);
+    text-align:left;
+}
+h3{
+    color:black;
+    
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium ;
+    text-align:left;
+}

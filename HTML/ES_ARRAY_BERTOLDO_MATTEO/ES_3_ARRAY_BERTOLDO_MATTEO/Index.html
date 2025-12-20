@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminare elementi vuoti</title>
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <h1>Eliminare elementi vuoti</h1>
+    <form>
+        <label>Inseriri una parola per volta</label>
+        <input type="text" id="frase" placeholder="Inserisci una parola o spazio" autofocus required>
+        <input type="button" onclick="creaArray(document.getElementById('frase').value)" value="Invia">
+        <input type="button" onclick="vuoti()" value="Togli gli spazi vuoti">
+        <p id="risposta"></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 04:09:39 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDM6NTI6MzAgIjsyNTUy"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDQ6MDk6MzkgIjsxOzI2NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, v" type="Integer" array="False" size=""/>
+            <declare name="f, f1" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire una frase e il programmma trasformer&#224; la lettere minuscole in maiuscole e viceversa&quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="f1" expression="&quot;&quot;"/>
+            <for variable="i" start="0" end="Len(f)-1" direction="inc" step="1">
+                <assign variable="v" expression="ToCode(Char(f,i))"/>
+                <if expression="v&lt;=90 &amp;&amp; v&gt;=65">
+                    <then>
+                        <assign variable="v" expression="v+32"/>
+                    </then>
+                    <else>
+                        <if expression="v&lt;=122 &amp;&amp; v&gt;=97">
+                            <then>
+                                <assign variable="v" expression="v-32"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="f1" expression="f1 &amp; ToChar(v)"/>
+            </for>
+            <output expression="&quot;La nuova frase &#232; : &quot;" newline="True"/>
+            <output expression="f1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

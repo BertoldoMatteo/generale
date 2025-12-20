@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scacchiera magica</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <h1>Regole:</h1>
+    <ol type="1">
+        <li>La scacchiera è di dimensione N x N, dove N è un numero scelto dai Sapienti (1 ≤ N ≤ 10).</li>
+        <li>Ogni casella contiene il risultato della moltiplicazione tra il numero di riga e il numero di colonna.</li>
+        <li>La scacchiera deve essere ordinata e facile da leggere.</li>
+    </ol>
+    <form>
+        <label for="num">Inserisci N:</label>
+        <input type="number" id="num" min="0" max="10" autofocus required>
+        <input type="button" onclick="funzione(parseInt(document.getElementById('num').value))" value="Crea scacchiera">
+    </form>
+    <p id="table"></p>
+</body>
+</html>

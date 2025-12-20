@@ -1,0 +1,28 @@
+main{
+    background-color: rgba(140, 140, 237, 0.926);
+    padding: 30px;
+    border-radius: 20px;
+}
+body{
+    background-color: rgba(68, 68, 237, 0.873);
+    text-align: center;
+}
+article{
+    padding:10px;
+}
+#img{
+    text-align: center;
+}
+img{
+    width:75%;
+    height:auto;
+}
+select,button{
+    background-color: rgb(180, 84, 244) ;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+select:hover, button:hover{
+    background-color: rgb(98, 35, 180) ;
+}

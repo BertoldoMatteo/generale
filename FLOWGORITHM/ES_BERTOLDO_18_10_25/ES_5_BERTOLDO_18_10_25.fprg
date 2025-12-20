@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 04:31:04 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDM6NTI6MzAgIjsyNTUy"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDQ6MzE6MDQgIjsyOzI2NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <declare name="f, f1" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire un numero e il programma dir&#224; il suo inverso&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="f" expression="ToString(n)"/>
+            <assign variable="f1" expression="&quot;&quot;"/>
+            <for variable="n" start="Len(f)-1" end="0" direction="dec" step="1">
+                <assign variable="f1" expression="f1 &amp; Char(f,n)"/>
+            </for>
+            <output expression="&quot;Il numero inverso &#232; : &quot;" newline="True"/>
+            <output expression="f1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

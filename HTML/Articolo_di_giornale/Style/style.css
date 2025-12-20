@@ -1,0 +1,90 @@
+body{
+    background-image: url("../Img/school.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logo{
+    width: 100px;
+    height: auto;
+}
+#vincitori{
+    text-align: center;
+}
+#win{
+    width: 50%;
+}
+#intervista{
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+header, footer{
+    padding:20px;
+    background-color: rgb(158, 194, 228);
+    height: auto;
+    text-align:end;
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin: 10px;
+}
+nav{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid  rgba(55, 23, 236, 0.488);
+    margin: 10px;
+    text-align: center;
+    background-color: #8ebbe8bc;
+}
+a{
+    size: 220%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+a:link, a:visited
+{
+    background-color: #0177e5;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a:hover,a:active
+{
+    background-color: rgb(33, 99, 143);
+}
+.left{
+    float: left;
+    margin: top 10px bottom  10px ;
+}
+.center{
+    text-align: center;
+}
+section{
+    background-color: rgba(112, 200, 241, 0.459);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+article{
+    padding: 20px;
+    border: 2px solid #7fafdd;
+    margin:15px;
+    border-radius: 10px;
+    background-color: #2a8ce8b9;
+}
+video{
+    width: 100%;
+    height: auto;
+}
+p{
+    font-size: 120%;
+}

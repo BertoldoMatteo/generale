@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="14529942"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 03:37:58 "/>
+        <attribute name="created" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MjY6NTQgIjsyMTA1"/>
+        <attribute name="edited" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6Mjk6MTQgIjsxOzIyMTI="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDM6Mzc6NTggIjsxOzI2NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, k, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dati due interi n e k, entrambi maggiori di 0, stampare il risultato della sommatoria k^1+k^2+k^3+...+k^n&quot;" newline="True"/>
+            <output expression="&quot;Inserire n&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;Inserire k&quot;" newline="True"/>
+            <input variable="k"/>
+            <assign variable="s" expression="0"/>
+            <while expression="K&gt;0">
+                <assign variable="s" expression="s+n^k"/>
+                <assign variable="k" expression="k-1"/>
+            </while>
+            <output expression="&quot;Il risultato della sommatoria &#232; &quot; &amp; s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

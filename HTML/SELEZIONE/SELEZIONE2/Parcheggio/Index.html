@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abbonamento palestra</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Abbonamento Palestra</h1>
+        <p>Programma che calcola l'abbonamento secondo i seguenti criteri</p>
+        <article>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th colspan="3">Tempo</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>meno di 45 minuti</th>
+                <th>dalla 1 alla 4 ora</th>
+                <th>dalla 5 ora in poi</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Tipologia</th>
+                <th>C=Coperto</th>
+                <td>Gratis</td>
+                <td>3€/h</td>
+                <td>2€/h</td>
+            </tr>
+            <tr>
+                <th>A=Aperto</th>
+                <td>Gratis</td>
+                <td>2€/h</td>
+                <td>1€/h</td>
+            </tr>
+            </table>
+            <p>TIPOLOGIA DI PARCHEGGIO</p>
+            <label for="C">Coperto</label>
+            <input type="radio" name="parcheggio" value="C">
+            <label for="A">Aperto</label>
+            <input type="radio" name="parcheggio" value="A">
+        </article>
+        <article>
+            <input type="number" placeholder="Inserisce le ore di parcheggio" id="ore">
+            <input type="number" placeholder="e i minuti" id="minuti">
+            <input type="button" onclick="parcheggio()" value="Calcola Parcheggio">
+            <div id="risposta"></div>
+        </article>
+    </main>
+</body>
+</html>

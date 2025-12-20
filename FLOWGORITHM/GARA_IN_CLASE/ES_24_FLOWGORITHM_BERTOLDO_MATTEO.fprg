@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-09 09:11:44 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6MDU6MjUgIjsyNTYy"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6MTE6NDQgIjsxOzI2Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserire il valore dello stipendio&quot;" newline="True"/>
+            <input variable="s"/>
+            <if expression="s&gt;=5000">
+                <then>
+                    <assign variable="s" expression="5000"/>
+                </then>
+                <else>
+                    <output expression="&quot;Inserisci l'anzianit&#224; si servizio&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <if expression="a&lt;10">
+                        <then>
+                            <assign variable="s" expression="s-(12/100*s)"/>
+                        </then>
+                        <else>
+                            <if expression="a&lt;30">
+                                <then>
+                                    <assign variable="s" expression="s-(8/100*s)"/>
+                                </then>
+                                <else>
+                                    <assign variable="s" expression="s-(4/100*s)"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;lo stipendio ridotto sar&#224; di &quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

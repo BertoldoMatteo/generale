@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 04:23:17 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDQ6MTA6MjQgIjsyNTUw"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDQ6MjM6MTcgIjsxOzI2NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, s, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Due numeri in matematica si dicono amicali o amici se la somma dei divisori propri di uno (escluso il numero stesso) &#232; uguale all&#8217;altro numero e viceversa.&quot;" newline="True"/>
+            <output expression="&quot;Inserire due numeri per scoprire se sono amicali/amici&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="s" expression="0"/>
+            <for variable="i" start="1" end="n1-1" direction="inc" step="1">
+                <if expression="n1%i==0">
+                    <then>
+                        <assign variable="s" expression="s+i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="s==n2">
+                <then>
+                    <assign variable="s" expression="0"/>
+                    <for variable="i" start="1" end="n2-1" direction="inc" step="1">
+                        <if expression="n2%i==0">
+                            <then>
+                                <assign variable="s" expression="s+i"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <if expression="s==n1">
+                        <then>
+                            <output expression="&quot;I due numeri sono amicali/amici&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;I due numeri non sono amicali/amici&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;I due numeri non sono amicali/amici&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 04:43:17 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDM6Mzg6MzQgIjsyNTYw"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDQ6NDM6MTcgIjsyOzI2Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, v1, v2, v3" type="Integer" array="False" size=""/>
+            <declare name="p1, p2, p3" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire il nome della prima persona&quot;" newline="True"/>
+            <input variable="p1"/>
+            <output expression="&quot;Inserire il nome della seconda persona&quot;" newline="True"/>
+            <input variable="p2"/>
+            <output expression="&quot;Inserire il nome della terza persona&quot;" newline="True"/>
+            <input variable="p3"/>
+            <assign variable="v1" expression="random(14)+1"/>
+            <assign variable="v2" expression="random(14)+1"/>
+            <assign variable="v3" expression="random(14)+1"/>
+            <if expression="v1&gt;v2">
+                <then>
+                    <if expression="v1&gt;v3">
+                        <then>
+                            <if expression="v2&gt;v3">
+                                <then>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p1&amp; &quot; &#232; &quot; &amp; v1" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p2&amp; &quot; &#232; &quot; &amp; v2" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p3&amp; &quot; &#232; &quot; &amp; v3" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p1&amp; &quot; &#232; &quot; &amp; v1" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p3&amp; &quot; &#232; &quot; &amp; v3" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p2&amp; &quot; &#232; &quot; &amp; v2" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;Il punteggio di &quot; &amp;p3&amp; &quot; &#232; &quot; &amp; v3" newline="True"/>
+                            <output expression="&quot;Il punteggio di &quot; &amp;p1&amp; &quot; &#232; &quot; &amp; v1" newline="True"/>
+                            <output expression="&quot;Il punteggio di &quot; &amp;p2&amp; &quot;&#236; &#232; &quot; &amp; v2" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="v1&gt;v3">
+                        <then>
+                            <output expression="&quot;Il punteggio di &quot; &amp;p2&amp; &quot; &#232; &quot; &amp; v2" newline="True"/>
+                            <output expression="&quot;Il punteggio di &quot; &amp;p1&amp; &quot; &#232; &quot; &amp; v1" newline="True"/>
+                            <output expression="&quot;Il punteggio di &quot; &amp;p3&amp; &quot; &#232; &quot; &amp; v3" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="v2&gt;v3">
+                                <then>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p2&amp; &quot; &#232; &quot; &amp; v2" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p3&amp; &quot; &#232; &quot; &amp; v3" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p1&amp; &quot; &#232; &quot; &amp; v1" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p3&amp; &quot; &#232; &quot; &amp; v3" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p2&amp; &quot; &#232; &quot; &amp; v2" newline="True"/>
+                                    <output expression="&quot;Il punteggio di &quot; &amp;p1&amp; &quot; &#232; &quot; &amp; v1" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

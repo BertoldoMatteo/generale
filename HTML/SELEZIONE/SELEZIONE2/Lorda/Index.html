@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Imposta Lorda</title>
+        <script src="Code/code.js"></script>
+        <link rel="stylesheet" href="Style/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Calcolo Imposta Lorda</h1>
+            <article>
+                <h3>Tabella di spiegazione del calcolo dell'Imposta</h3>
+                <table>
+                    <tr>
+                        <th>scaglioni di reddito in €</th>
+                        <th>aliquota</th>
+                        <th>imposta dovuta</th>
+                    </tr>
+                    <tr>
+                        <td>da 0 a 15.000</td>
+                        <td>23%</td>
+                        <td>23% sulla parte eccedente la no tax area (per semplicità pari a 3000€)</td>
+                    </tr>
+                    <tr>
+                        <td>da 15.000 a 28.000</td>
+                        <td>27%</td>
+                        <td>3.450€ + 27% sulla parte eccedente i 15.000€</td>
+                    </tr>
+                    <tr>
+                        <td>da 28.000 a 55.000</td>
+                        <td>38%</td>
+                        <td>6.960€ + 38% sulla parte eccedente i 28.000€</td>
+                    </tr>
+                    <tr>
+                        <td>da 55.000 a 75.000</th>
+                        <td>41%</th>
+                        <td>17.220€ + 41% sulla parte eccedente i 55.000€</td>
+                    </tr>
+                    <tr>
+                        <td>oltre 75.000</td>
+                        <td>43%</td>
+                        <td>25.420€ + 43% sulla parte eccedente i 75.000€</td>
+                    </tr>
+                </table>
+            </article>
+            <form>
+                <input type="number" placeholder="Inserisci il tuo reddito" id="reddito">
+                <input type="button" onclick="Calcolo()" placeholder="Calcola Imposta Lorda">
+            </form>
+            <div id="risposta">
+            </div>
+        </main>
+    </body>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regno delle stelle</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <h1>Regno delle Stelle</h1>
+    <form>
+    <label for="architettura">Inserisci un'architettura a tua scelta</label>
+    <select id="architettura">
+        <option value="0"></option>
+        <option value="1">La Stella del Quadrato Pieno</option>
+        <option value="2">Il Contorno del Quadrato</option>
+        <option value="3">Il Triangolo del Coraggio</option>
+        <option value="4">La Stella del Labirinto</option>
+    </select>
+    
+        <label for="num">Inserisci N:</label>
+        <input type="number" id="num" autofocus required>
+        <input type="button" onclick="funzione(parseInt(document.getElementById('num').value),document.getElementById('architettura').value)" value="Crea scacchiera">
+    </form>
+    <p id="stella"></p>
+</body>
+</html>

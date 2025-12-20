@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(109, 138, 138);
+}
+td{
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    border-collapse:collapse;
+}
+table{
+    text-align: center;
+    margin:20px;
+}
+caption{
+    text-align: center;
+}

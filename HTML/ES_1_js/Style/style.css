@@ -1,0 +1,9 @@
+body{
+    background-color: darkolivegreen;
+}
+
+div{
+    background-color: darkgreen;
+    border:2px solid rgb(3, 55, 6);
+    font-size: 30px;
+}

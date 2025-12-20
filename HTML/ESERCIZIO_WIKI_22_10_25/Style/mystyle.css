@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(160, 228, 242);
+}
+
+h1{
+    size:220%;
+    text-align: center;
+    color: blue;
+}
+
+a{
+    size: 220%;
+    color: black;
+    text-align: center;
+}
+
+a:link, a:visited
+{
+    background-color: white;
+    border: 2px solid #E5BE01;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a:hover,a:active
+{
+    background-color: lightgoldenrodyellow;
+}
+figcaption{
+    font-family:'Times New Roman', Times, serif;
+    font-size:140%;
+    text-align:center;
+    margin: 5%;
+}
+figure{
+    margin:2%;
+    padding: 5%;
+    background-color: rgb(127, 221, 255);
+    border: 2px solid rgb(42, 157, 239);
+}
+
+div{
+    margin:2%;
+    padding: 5%;
+    background-color: rgb(127, 221, 255);
+    border: 2px solid rgb(42, 157, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-size:  140%;;
+    text-align:center;
+}
+
+.secret{
+    background-color: cadetblue;
+    border: 2px solid rgb(19, 104, 165);
+}
+
+ul{
+    list-style-type: circle;
+}
+
+img{
+    size: 50%;
+    display: block;
+    margin:auto;
+}
+
+table, th, td{
+    
+    background-color: rgb(127, 221, 255);
+    border: 2px solid rgb(42, 157, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    size: auto;
+    width: auto;
+    height: auto;
+}
+.ancora{
+    margin: 5px;
+}
+
+li{
+    size: 40px;;
+}

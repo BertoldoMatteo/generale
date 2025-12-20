@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 10:26:54 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MDA6NTAgIjsyNTQ2"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MjY6NTQgIjszOzI2Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <declare name="s" type="String" array="False" size=""/>
+            <declare name="b" type="Boolean" array="False" size=""/>
+            <assign variable="b" expression="True"/>
+            <output expression="&quot;Dato un numero naturale il programma verifica se ogni sua cifra &#232; maggiore o uguale al numero che rappresenta la posizione della cifra stessa (la posizione delle unit&#224; &#232; rappresentata da 0, delle decine 1, delle centinaia 2...) e alla fine dice se questa propriet&#224; &#232; rispettata o meno dal numero in esame.&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="s" expression="ToString(n)"/>
+            <assign variable="n" expression="Len(s)"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <if expression="ToInteger(Char(s,i))&lt;i">
+                    <then>
+                        <assign variable="b" expression="False"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="b==True">
+                <then>
+                    <output expression="&quot;La propriet&#224; &#232; rispettata&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;La propriet&#224; non &#232; rispettata&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

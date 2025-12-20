@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-09 09:04:22 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDg6NTE6MjAgIjsyNTU3"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6MDQ6MjIgIjsxOzI2NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, s1, s2" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci il valore di a dell'equazione&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Inserisci il valore di a dell'equazione&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Inserisci il valore di a dell'equazione&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="(b*b-4*a*c)&gt;=0">
+                <then>
+                    <assign variable="s1" expression="(-b+sqrt(b*b-4*a*c))/2*a"/>
+                    <assign variable="s2" expression="(-b-sqrt(b*b-4*a*c))/2*a"/>
+                    <output expression="&quot;Le soluzione dell'equazione di 2&#176; grado sono: &quot;&amp; s1&amp;&quot; &quot; &amp; s2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;L'equazione &#232; impossibile in R&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

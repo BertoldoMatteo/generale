@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(119, 185, 185);
+}
+
+div{
+    background-color: rgb(63, 127, 127);
+    text-decoration: solid;
+    padding:20px;
+    border-radius: 20px;
+    border-color: rgb(31, 94, 94);
+    border-width: 5px;
+}
+#risposta, #stor{
+    font-size: 34px;
+    float: left;
+    size: auto;
+    margin-bottom: 10px;
+    width:50%;
+}
+#table{
+    float: right;
+}
+table{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 50%;
+    
+}
+input{
+    padding:15px;
+    border:none;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input:hover{
+    background-color:rgb(89, 183, 152);
+}

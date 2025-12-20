@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-11 03:45:07 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xMTsiMDM6Mjc6NTYgIjsyNTU3"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xMTsiMDM6NDU6MDcgIjsxOzI2NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, nmax" type="String" array="False" size=""/>
+            <comment text="Dichiaro le variabili dei nomi degli edicolanti"/>
+            <declare name="c, cont" type="Integer" array="False" size=""/>
+            <comment text="Dichiaro le variabili di tipo intero che rappresentano il numero di copie di giornale vendute"/>
+            <declare name="I, Imax" type="Real" array="False" size=""/>
+            <comment text="Dichiaro in input le variabili di tipo reale che rappresentano gli incassi degli edicolanti"/>
+            <assign variable="Imax" expression="0"/>
+            <for variable="cont" start="0" end="2" direction="inc" step="1">
+                <output expression="&quot;Nome edicolante&quot;" newline="True"/>
+                <input variable="n"/>
+                <output expression="&quot;Copie di giornale vendute&quot;" newline="True"/>
+                <input variable="c"/>
+                <while expression="c&lt;0">
+                    <output expression="&quot;VALORE NON VALIDO&quot;" newline="True"/>
+                    <input variable="C"/>
+                </while>
+                <if expression="C&lt;=200">
+                    <then>
+                        <assign variable="I" expression="c*0.1"/>
+                    </then>
+                    <else>
+                        <if expression="C&lt;300">
+                            <then>
+                                <assign variable="I" expression="c*0.2"/>
+                            </then>
+                            <else>
+                                <assign variable="I" expression="c*0.3"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <if expression="I&gt;Imax">
+                    <then>
+                        <assign variable="Imax" expression="I"/>
+                        <assign variable="nmax" expression="n"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;L'edicolante con il maggior numero di incassi, ovvero &quot;&amp;Imax&amp;&quot; &#232; &quot; &amp; nmax" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

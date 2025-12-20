@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-09 09:27:54 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6MTM6MzcgIjsyNTY0"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0wOTsiMDk6Mjc6NTQgIjsxOzI2NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserire il numero di scatti eseguiti&quot;" newline="True"/>
+            <input variable="s"/>
+            <while expression="s&lt;0">
+                <output expression="&quot;ERRORE&quot;" newline="True"/>
+                <input variable="s"/>
+            </while>
+            <assign variable="s" expression="18.60"/>
+            <if expression="s&lt;=100">
+                <then>
+                    <assign variable="c" expression="s+s*0.50"/>
+                </then>
+                <else>
+                    <if expression="s&lt;=140">
+                        <then>
+                            <assign variable="c" expression="s+100*0.50+(s-100)*0.127"/>
+                        </then>
+                        <else>
+                            <if expression="s&lt;240">
+                                <then>
+                                    <assign variable="c" expression="s+(s*2*(s-140)*0.127)+(100-(s-140))*0.5+40*0.127"/>
+                                </then>
+                                <else>
+                                    <assign variable="c" expression="s+s*0.127"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="c" expression="c+22/100*c"/>
+            <output expression="&quot;L'importo dovuto &#232; di &quot;&amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

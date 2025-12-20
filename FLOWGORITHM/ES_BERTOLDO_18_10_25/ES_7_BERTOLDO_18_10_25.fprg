@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="14529942"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 03:52:22 "/>
+        <attribute name="created" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MDM6NDAgIjsyMDk1"/>
+        <attribute name="edited" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MTY6NDggIjsxOzIyMTU="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNjsiMDM6NTI6MjIgIjsxOzI2NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, min, max" type="Integer" array="False" size=""/>
+            <output expression="&quot;Data una sequenza di numeri positivi il programma dir&#224; il numero maggiore e minore&quot;" newline="True"/>
+            <output expression="&quot;Per terminare la sequenza digita 0&quot;" newline="True"/>
+            <output expression="&quot;numero: &quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&lt;0">
+                <output expression="&quot;Numero negativo non valido&quot;" newline="True"/>
+                <input variable="n"/>
+            </while>
+            <assign variable="min" expression="n"/>
+            <assign variable="max" expression="0"/>
+            <while expression="n!=0">
+                <if expression="n&gt;max">
+                    <then>
+                        <assign variable="max" expression="n"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="n&lt;min">
+                    <then>
+                        <assign variable="min" expression="n"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;numero: &quot;" newline="True"/>
+                <input variable="n"/>
+                <while expression="n&lt;0">
+                    <output expression="&quot;Numero negativo non valido&quot;" newline="True"/>
+                    <input variable="n"/>
+                </while>
+            </while>
+            <output expression="&quot;Il valore minimo &#232; &quot; &amp; min" newline="True"/>
+            <output expression="&quot;Il valore massimo &#232; &quot; &amp; max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

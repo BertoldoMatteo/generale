@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Abbonamento palestra</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Abbonamento Palestra</h1>
+        <p>Programma che calcola l'abbonamento secondo i seguenti criteri</p>
+        <article>
+            <table>
+                <tr>
+                    <th colspan="4">Stagione</th>
+            </tr>
+            <tr>
+                <th>Tipo stanza</th>
+                <th><input type="radio" name="stagione" value="BS"><label for="bassa">Bassa Stagione(BS)</label></th>
+                <th><input type="radio" name="stagione" value="MS"><label for="media">Media Stagione(MS)</label></th>
+                <th><input type="radio" name="stagione" value="AS"><label for="alta">Alta Stagione(AS)</label></th>
+            </tr>
+            <tr>
+                <th><input type="radio" name="stanza" value="B"><label for="base">Base(B)</label></th>
+                <td>15€/giorno</td>
+                <td>20€/giorno</td>
+                <td>25€/giorno</td>
+            </tr>
+            <tr>
+                <th><input type="radio" name="stanza" value="M"><label for="media">Media(M)</label></th>
+                <td>30€/giorno</td>
+                <td>35€/giorno</td>
+                <td>40€/giorno</td>
+            </tr>
+            <tr>
+                <th><input type="radio" name="stanza" value="A"><label for="alta">Alta(A)</label></th>
+                <td>45€/giorno</td>
+                <td>50€/giorno</td>
+                <td>55€/giorno</td>
+            </tr>
+            </table>
+            <p>Gli sconti sono:</p>
+            <ul>
+                <li>2 giorni -> 0%</li>
+                <li>3-7 giorni -> 25%</li>
+                <li>7-in poi -> 35%</li>
+            </ul>
+            <p>L'hotel offre il servizio di parcheggio custodito alla tariffa di 5 €/g a cui non si applica lo sconto.</p>
+            <p>Vuoi usufruirne?</p>
+            <label for="SI">SI</label>
+            <input type="radio" name="parcheggio" value="SI">
+            <label for="NO">NO</label>
+            <input type="radio" name="parcheggio" value="NO">
+        </article>
+        <form action="Code/code.js">
+            <input type="number" placeholder="Inserisci il numero di giorni" id="giorni">
+            <input type="button" onclick="soggiorno()" value="Calcola Soggiorno">
+            <label for="myCheck">Verifica</label>
+            <input type="checkbox" id="myCheck">
+            <input type="color" value="#345678" id="colore">
+            <input type="range" min="1" max="2" id="range">
+            <input type="datetime" value="12:00" id="ora">
+            <textarea cols="12" rows="11" id="casa" placeholder="vieni a casa"></textarea>
+            <input type="reset">
+            <input type="checkbox" name="hobby" value="sport"> Sport
+            <input type="checkbox" name="hobby" value="musica"> Musica
+            <input type="checkbox" name="hobby" value="lettura"> Lettura
+            <input type="submit">
+            <div id="risposta"></div>
+        </form>
+    </main>
+</body>
+</html>

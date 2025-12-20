@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-11 03:51:49 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xMTsiMDM6NDU6MzQgIjsyNTUz"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xMTsiMDM6NTE6NDkgIjsyOzI2NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="l, v" type="Integer" array="False" size=""/>
+            <output expression="&quot;QUESTO PROGRAMMA DIRA' A QUANTO AMMONTA LA MULTA DA PAGARE, IN BASE ALLA VELOCITA' RAGGIUNTA E IL LIMITE DI VELOOCITA'&quot;" newline="True"/>
+            <output expression="&quot;Inserire limite di velocit&#224;&quot;" newline="True"/>
+            <input variable="l"/>
+            <output expression="&quot;Inserisci la velocit&#224; raggiunta&quot;" newline="True"/>
+            <input variable="v"/>
+            <if expression="v-l&lt;=10">
+                <then>
+                    <output expression="&quot;La multa da pagare &#232; di 100 euro&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="v-l&lt;=20">
+                        <then>
+                            <output expression="&quot;La multa da pagare &#232; di 150 euro&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="v-l&lt;=30">
+                                <then>
+                                    <output expression="&quot;La multa da pagare &#232; di 250 euro&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="v-l&lt;=40">
+                                        <then>
+                                            <output expression="&quot;La multa da pagare &#232; di 300 euro&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;La multa da pagare &#232; di 400 euro&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

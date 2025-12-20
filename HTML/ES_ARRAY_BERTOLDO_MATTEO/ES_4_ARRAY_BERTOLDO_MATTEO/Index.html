@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini registro voti</title>
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <h1>Mini registro voti</h1>
+    <form>
+        <label>Inserisci i 10 voti</label>
+        <input type="number" id="voto" placeholder="Inserisci il voto" autofocus required>
+        <input type="button" onclick="creaArray(parseInt(document.getElementById('voto').value))" value="Invia voto">
+        <p id="risposta"></p>
+    </form>
+</body>
+</html>

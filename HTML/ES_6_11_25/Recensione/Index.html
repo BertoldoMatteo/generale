@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recensione</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <main>
+    <h1>Recensione ristorante</h1>
+    <article>
+        <label>Seleziona valutazione</label>
+            <select id="select">
+                <option value="0"></option>
+                <option value="⭐">⭐</option>
+                <option value="⭐⭐">⭐⭐</option>
+                <option value="⭐⭐⭐">⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+            </select>
+        </article>
+        <article id="Feed">
+            <label>Feedback:</label>
+            <label><input type="radio" name="Feedback" value="positivo">positivo</label>
+            <label><input type="radio" name="Feedback" value="negativo">negativo</label>
+        </article>
+        <article>
+            <button id="button" onclick="recensione()">Invia recensione</button>
+        </article>
+        <article id="risposta"></article>
+        <input type="reset">
+    </main>
+</body>
+</html>

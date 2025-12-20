@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 04:32:52 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMDQ6MjI6MzcgIjsyNTU4"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMDQ6MzI6NTIgIjsxOzI2NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <for variable="a" start="1" end="100" direction="inc" step="1">
+                <for variable="b" start="a+1" end="100" direction="inc" step="1">
+                    <for variable="c" start="b+1" end="100" direction="inc" step="1">
+                        <if expression="a*a+b*b==c*c">
+                            <then>
+                                <assign variable="n" expression="n+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                </for>
+            </for>
+            <output expression="&quot;Il numero di terne pitagotiche con 1&lt;=a&lt;b&lt;c&lt;=100 che rispettano a^2+b^2=c^2 sono: &quot;&amp;n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

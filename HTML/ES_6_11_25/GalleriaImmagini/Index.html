@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria Immagini</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <main>
+        <h1>Galleria delle immagini</h1>
+        <article>
+            <label for="select">Scegli un'ambiente</label>
+            <select id="select">
+                <option value="Montagna">Montagna</option>
+                <option value="Mare">Mare</option>
+                <option value="Città">Città</option>
+            </select>
+        </article>
+        <article id="radiobutton">
+            <label>Tema:</label>
+            <label><input type="radio" name="tema" value="colore">Colore</label>
+            <label><input type="radio" name="tema" value="bianco-nero">Bianco-nero</label>
+        </article>
+        <article>
+            <button id="button" onclick="Esegui()">CaricaImmagine</button>
+        </article>
+        <article id="img">
+            <img id="immagine" src="">
+        </article>
+    </main>
+</body>
+</html>

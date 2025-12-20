@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 10:15:47 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MDA6NTAgIjsyNTQ2"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MTU6NDcgIjsyOzI2Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="s" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire un numero naturale e il programma restituisce in output da quante cifre &#232; composto il numero.&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="s" expression="ToString(n)"/>
+            <assign variable="n" expression="Len(s)"/>
+            <output expression="&quot;Il numero &#232; compostro da &quot;&amp;n&amp;&quot; cifre&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

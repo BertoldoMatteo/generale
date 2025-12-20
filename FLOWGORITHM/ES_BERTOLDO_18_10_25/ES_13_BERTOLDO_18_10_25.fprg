@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 10:12:13 "/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MDA6NTAgIjsyNTQ2"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUUEyREc0U0g7MjAyNS0xMC0xNzsiMTA6MTI6MTMgIjsxOzI2NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, vF" type="Integer" array="False" size=""/>
+            <declare name="vI" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserire il valore della popolazione iniziale&quot;" newline="True"/>
+            <input variable="vI"/>
+            <while expression="vI&lt;=0">
+                <input variable="vI"/>
+            </while>
+            <output expression="&quot;Inserire il valore della popolazione finale&quot;" newline="True"/>
+            <input variable="vF"/>
+            <while expression="vI&gt;vF">
+                <output expression="&quot;VALORE NON VALIDO&quot;" newline="True"/>
+                <input variable="vF"/>
+            </while>
+            <if expression="vI&lt;vF">
+                <then>
+                    <assign variable="vI" expression="vI*2"/>
+                    <assign variable="a" expression="1"/>
+                    <while expression="vI&lt;vF">
+                        <assign variable="vI" expression="vI-(vI/3)"/>
+                        <assign variable="vI" expression="vI*2"/>
+                        <assign variable="a" expression="a+2"/>
+                    </while>
+                </then>
+                <else>
+                    <assign variable="a" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot;Gli anni necessari per raggiungere la popolazione iniziale inserita sono: &quot;&amp;a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

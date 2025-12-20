@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="14529942"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 10:16:48 "/>
+        <attribute name="created" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MDM6NDAgIjsyMDk1"/>
+        <attribute name="edited" value="MTQ1Mjk5NDI7SU5GTzEtMDU7MjAyNS0xMC0xNjsiMTA6MTY6NDggIjsxOzIyMTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, min" type="Integer" array="False" size=""/>
+            <output expression="&quot;Data una sequenza di numeri visualizzare il numero minimo&quot;" newline="True"/>
+            <output expression="&quot;Per terminare la sequenza digita 0&quot;" newline="True"/>
+            <output expression="&quot;numero: &quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="min" expression="n"/>
+            <while expression="n!=0">
+                <if expression="n&lt;min">
+                    <then>
+                        <assign variable="min" expression="n"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;numero: &quot;" newline="True"/>
+                <input variable="n"/>
+            </while>
+            <output expression="&quot;Il valore minimo &#232; &quot; &amp; min" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

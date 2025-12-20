@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cisfrario Cesare</title>
+    <script src="Code/code.js"></script>
+</head>
+<body>
+    <h1>Cifrario di Cesare</h1>
+    <form>
+        <label>Inserisci la parola e la chiave</label>
+        <input type="text" id="parola" placeholder="Inserisci parola" required autofocus>
+        <input type="number" min="0" id="num" placeholder="Inserisci il codice" required>
+        <input type="button" value="Crea triangolo" onclick="funzione(document.getElementById('parola').value,document.getElementById('num').value)">
+        <p id="risp"></p>
+    </form>
+</body>
+</html>

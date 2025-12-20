@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasse</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <h1>Il sito calcola le tasse da pagare in base al reddito dell'utente:</h1>
+<ul>
+    <li>Se il reddito è inferiore a 15.000€, applica una tassa del 10%.</li> 
+    <li>Se è compreso tra 15.000€ e 30.000€, applica una tassa del 20%.</li> 
+    <li>Se supera 30.000€, applica una tassa del 30%.</li> 
+</ul>
+    <input type="number" id="reddito" placeholder="Inserire il reddito">
+    <button onclick="calcola()">Calcola</button>
+    <div id="bordo">
+        <h3>Le tasse da pagare sono: </h3>
+        <div id="risposta"></div>
+    </div>
+</body>
+</html>

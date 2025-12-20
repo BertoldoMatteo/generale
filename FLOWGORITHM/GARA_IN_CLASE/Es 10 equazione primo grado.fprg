@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Loren"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-09 09:07:37 "/>
+        <attribute name="created" value="TG9yZW47TEFQVE9QLTZBME1PSEY1OzIwMjUtMTAtMDk7IjA4OjU2OjMyICI7MjczNw=="/>
+        <attribute name="edited" value="TG9yZW47TEFQVE9QLTZBME1PSEY1OzIwMjUtMTAtMDk7IjA5OjA3OjM3ICI7MTsyODQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, c, s" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserisci equazione di primo grado&quot;" newline="True"/>
+            <input variable="x"/>
+            <input variable="c"/>
+            <if expression="(x=0 &amp;&amp; c=0)">
+                <then>
+                    <output expression="&quot;L'equazione &#232; indeterminata&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x=0 &amp;&amp; c!=0">
+                        <then>
+                            <output expression="&quot;L'equazione &#232; impossibile&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="s" expression="c/x"/>
+                            <output expression="&quot;Il risultato &#232; &quot; &amp;s" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
