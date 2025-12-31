@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--HEAD: parte non visibile dall'utilizzatore, usata dalla macchina per in caricamento della pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombola</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<!--BODY: effettiva struttura della pagina web-->
+<body>
+    <!--titolo-->
+    <h1>Il gioco della Tombola</h1>
+    <!--bottone per far apparire tabellone-->
+    <input type="button" onclick="Inizio()" id="start" value="Inizia!">
+    <!--sezione dove apparirà il tabellone-->
+    <div id="contenitore"></div>
+    <!--bottone per estrarre un numero-->
+    <input type="button" onclick="Estrai()" id="estrai" value="Estrai!">
+    <!--casella di testo dove viene visualizzato il numero estratto-->
+    <p id="estratto"></p>
+    <!--casella di testo dove viene visualizzati ambo/terna/quaterna/cinquina/tombola-->
+    <p id="punti"></p>
+</body>
+</html>

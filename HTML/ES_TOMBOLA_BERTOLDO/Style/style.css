@@ -1,0 +1,54 @@
+/*caratteristiche dello sfondo principale */
+body {
+    background-color: #cc0000;                /*colore sfondo pagina*/
+    font-family: "Poppins", sans-serif;         /*font principale*/
+}
+
+/*caratteristiche della sezione dove apparirà il tabellone*/
+#contenitore {
+    display: grid;                              /*separo lo spazioni in griglia*/
+    grid-template-columns: repeat(2, auto);     /*creo 2 colonne della griglia per 2 cartelle alla stessa altezza*/
+    grid-template-rows: repeat(3, auto);        /*creo tre righe dove inserire le cartelle una sotto l'altra*/
+    justify-content: center;                    /*centra orizzontalmente*/
+    align-content: center;                      /*centra verticalmente*/
+    gap: 30px;                                  /*spazio tra le cartelle*/
+    width: 100%;                                /*utilizzo tutta la larghezza della griglia*/
+    margin-top: 20px;                           /*spazio al di sopra della griglia*/
+}
+/*caratteristiche di ogni cartella*/
+.gruppo {
+    border: 3px solid red;                    /*colore del bordo di ogni cartella*/            
+    padding: 10px;                              /*spazio tra il contenuto e il bordo*/
+    display: grid;                              /*separo lo spazio in una griglia*/
+    grid-template-columns: repeat(5, 60px);     /*creo 5 colonne*/
+    grid-template-rows: repeat(3, 60px);        /*creo 3 righe*/
+    gap: 5px;
+}
+
+/*caratteristiche di ogni numero*/
+.cella {
+    width: 60px;                                /*larghezza cella*/
+    height: 60px;                               /*altezza cella*/
+    display: flex;                              /*creo una struttura per centrare il contenuto*/
+    align-items: center;                        /*centro verticalmente*/
+    justify-content: center;                    /*centro orizzontalmente*/
+    border: 1px solid #333;                   /*spessore e coloro del bordo*/
+    box-sizing: border-box;                     /*include il bordo nelle dimensioni*/
+}
+
+/*caratteristiche dei bottoni in generale*/
+input[type="button"] {
+    background-color: #f44747;                /*colore di sfondo*/
+    color: white;                             /*colore del testo*/
+    border: none;                               /*cancello i bordi*/
+    padding: 12px 25px;                         /*spazio tra il testo e il bordo*/
+    font-size: 20px;                            /*grandezza del testo*/
+    border-radius: 12px;                        /*raggio degli angoli*/
+    cursor: pointer;                            /*cambio il cursore in una manina per mostrare che si può cliccare*/
+    font-weight: bold;                          /*stile in grassetto al testo*/
+}
+
+/*caratteristiche dei bottoni quando ci passo sopra con il cursore*/
+input[type="button"]:hover {
+    transform: scale(1.08);                      /*aumneto leggermente la grandezza*/
+}
