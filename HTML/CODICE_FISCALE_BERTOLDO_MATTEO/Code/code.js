@@ -44,7 +44,7 @@ function Calcola(){
         str+=Cognome(cognome);
         str+=Nome(nome);
         str+=Data(data, sesso);
-        str+=codLuogo,
+        str+=codLuogo;
         str+=verifica(str);
         document.getElementById("risposta").innerHTML="Il cosice fiscale è: "+ str;
     }
