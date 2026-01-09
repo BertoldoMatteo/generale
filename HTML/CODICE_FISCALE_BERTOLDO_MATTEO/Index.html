@@ -20,12 +20,11 @@
             <option value="F">F</option>
         </select><br>
         <label>LUOGO DI NASCITA</label>
-        <input type="text" id="provincia" required><br>
-        <label>PROVINCIA (SIGLA)</label>
-        <input type="text" id="prov" maxlength="2" required><br>
-        <label>Inserisci codice del tuo comune di nascita</label>
-        <input type="text" id="LuogoDiNascita" maxlength="4" required>
-        <a link href="Pdf/codicecomune.pdf" target="_blank">se non ricordi il tuo codice</a><br>
+        <div>
+            <input type="file" id="file" value="Scegli file" onchange="showfile(this)">
+            <input type="text" id="LuogoDiNascita" required>
+        </div>
+        <a link href="Pdf/codicecomune.pdf" target="_blank">IN CASO DI MALFUNZIONAMENTO</a><br>
         <label> DATA DI NASCITA</label>
         <input type="date" id="DataDiNascita" required><br>
         <input type="button" onclick="Calcola()" value="Calcola il Codice Fiscale">

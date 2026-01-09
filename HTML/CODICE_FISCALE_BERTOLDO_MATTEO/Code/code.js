@@ -1,13 +1,42 @@
+var testo="";
+
+function showfile(input){
+    let inputfile = input.files[0];
+    if(inputfile){
+        let reader = new FileReader();
+
+        reader.readAsText(inputfile);   //inputfile è l'oggetto da leggere come testo
+
+        reader.onload = function() {   //al termine del caricamento viene generato l'evento load
+            testo=reader.result;   //prop. result di target dell'oggetto "e" mi consente di accedere al contenuto del file
+        }
+    }
+}
+
+function trovaComune(testo){
+    let Comune=document.getElementById("LuogoDiNascita").value;
+    Comune=Comune.toUpperCase();
+    let array= testo.split("\r\n");
+    let luogo="Luogo non trovato";
+    console.log(array.join(", "));
+    for(let i=0;i<array.length;i++){
+        if(array[i].includes(Comune) && array[i].slice(0,Comune.length)==Comune){
+            luogo=array[i].slice(-4);
+        }
+        console.log(luogo);
+    }
+    return luogo;
+}
+
+
 function Calcola(){
     let str="";
     let cognome=(document.getElementById("cognome").value).toUpperCase();
     let nome=(document.getElementById("nome").value).toUpperCase();
     let sesso=document.getElementById("sesso").value;
-    let provincia=(document.getElementById("provincia").value).toUpperCase();
-    let sigla=(document.getElementById("prov").value).toUpperCase();
-    let luogo=(document.getElementById("LuogoDiNascita").value).toUpperCase();
     let data=document.getElementById("DataDiNascita").value;
-    let contr=controllo(cognome, nome, sesso, provincia, sigla, luogo);
+    let codLuogo=trovaComune(testo); //do il testo del file alla funzione che troverà il comune Corrispondente;
+    let contr=controllo(cognome, nome, sesso, codLuogo);
     if(contr=="errore"){
         document.getElementById("risposta").innerHTML="errore";
     }
@@ -15,14 +44,14 @@ function Calcola(){
         str+=Cognome(cognome);
         str+=Nome(nome);
         str+=Data(data, sesso);
-        str+=luogo;
+        str+=codLuogo,
         str+=verifica(str);
         document.getElementById("risposta").innerHTML="Il cosice fiscale è: "+ str;
     }
     
 }
 
-function controllo(c,n,s,p,si,l){
+function controllo(c,n,s,l){
     let ascii;
     for(let i of c){
         let ascii=i.charCodeAt(0);
@@ -36,14 +65,7 @@ function controllo(c,n,s,p,si,l){
             return "errore";
         }
     }
-    if(s!="M" && s!="F") return "errore";
-    for(let i of p){
-        let ascii=i.charCodeAt(0);
-        if(ascii<65 || ascii>90){
-            return "errore";
-        }
-    }
-    for(let i of si){
+    for(let i of s){
         let ascii=i.charCodeAt(0);
         if(ascii<65 || ascii>90){
             return "errore";
@@ -66,7 +88,7 @@ function controllo(c,n,s,p,si,l){
 function Cognome(cognome){
     let str="";
     var count=0;
-    let ascii=" ";
+    let ascii="";
     for(let i of cognome){
         ascii=i.charCodeAt(0);
         console.log(ascii);
@@ -108,7 +130,7 @@ function Nome(nome){
         str="";
         for(let i of nome){
             ascii=i.charCodeAt(0);
-            if(ascii!=65 && ascii !="69" && ascii!="73" && ascii!="79" && ascii!="85" && count<4){
+            if(ascii!="65" && ascii !="69" && ascii!="73" && ascii!="79" && ascii!="85" && count<4){
                 str+=i;
                 count++;
             }
