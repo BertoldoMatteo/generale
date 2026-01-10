@@ -224,86 +224,8 @@ function verifica(codice){
         }
         ascii=ascii.toString();
         if(count%2==1){
-            switch(ascii){
-                case "0":
-                    ascii=1;
-                break;
-                case "1":
-                    ascii=0;
-                break;
-                case "2":
-                    ascii=5;
-                break;
-                case "3":
-                    ascii=7;
-                break;
-                case "4":
-                    ascii=9;
-                break;
-                case "5":
-                    ascii=13;
-                break;
-                case "6":
-                    ascii=15;
-                break;
-                case "7":
-                    ascii=17;
-                break;
-                case "8":
-                    ascii=19;
-                break;
-                case "9":
-                    ascii=21;
-                break;
-                case "10":
-                    ascii=2;
-                break;
-                case "11":
-                    ascii=4;
-                break;
-                case "12":
-                    ascii=18;
-                break;
-                case "13":
-                    ascii=20;
-                break;
-                case "14":
-                    ascii=11;
-                break;
-                case "15":
-                    ascii=3;
-                break;
-                case "16":
-                    ascii=6;
-                break;
-                case "17":
-                    ascii=8;
-                break;
-                case "18":
-                    ascii=12;
-                break;
-                case "19":
-                    ascii=14;
-                break;
-                case "20":
-                    ascii=16;
-                break;
-                case "21":
-                    ascii=10;
-                break;
-                case "22":
-                    ascii=22;
-                break;
-                case "23":
-                    ascii=25;
-                break;
-                case "24":
-                    ascii=24;
-                break;
-                case "25":
-                    ascii=23;
-                break;
-            }
+            let cd=[1,0,5,7,9,13,15,17,19,21,2,4,18,20,11,3,6,8,12,14,16,10,22,25,24,23]
+            ascii=cd[ascii];
         }
     ascii=parseInt(ascii)
     somma+=ascii;
