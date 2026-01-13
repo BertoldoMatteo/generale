@@ -47,9 +47,51 @@ function Calcola(){ // calcolo il codice
         str+=codLuogo;
         str+=verifica(str);
         document.getElementById("risposta").innerHTML="Il cosice fiscale è: "+ str;
+        aggiungiRigaCSV(str);
+
     }
-    
 }
+
+let csvContenuto = "";  // Variabile globale per contenere il contenuto del CSV
+
+
+// Funzione per aggiungere una riga al CSV
+function aggiungiRigaCSV(stringa) {
+    // Aggiungi la stringa come nuova riga (se non è la prima, aggiungi anche un ritorno a capo)
+    if (csvContenuto.length > 0) {
+        csvContenuto += '\n';  // Aggiungi una nuova riga (line break)
+    }
+    csvContenuto += stringa;  // Aggiungi la nuova stringa
+
+    console.log(`Aggiunta la riga: ${stringa}`);
+}
+
+
+function salva(){
+    scaricaCSV("./CodiciFiscali");
+}
+// Funzione per scaricare il file CSV
+    
+function scaricaCSV(nomeFile) {
+    // Crea un blob con il contenuto CSV
+    let blob = new Blob([csvContenuto], { type: 'text/csv' });
+
+    // Crea un URL per il blob
+    let url = URL.createObjectURL(blob);
+
+    // Crea un link per il download
+    let link = document.createElement('a');
+    link.href = url;
+    link.download = nomeFile;
+
+    // Simula il click sul link per avviare il download
+    link.click();
+
+    // Rilascia l'oggetto URL
+    URL.revokeObjectURL(url);
+}
+
+
 
 function controllo(c,n,s,l){ // controllo dei dati
     let ascii;
