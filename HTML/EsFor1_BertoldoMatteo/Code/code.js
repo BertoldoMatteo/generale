@@ -2,6 +2,7 @@ var numeri=[];
 
 function Invio(num){ // funzione per prendere in input i numeri e verificarne la validità
     document.getElementById("num").value="";
+    document.getElementById("num").focus();
     num=parseInt(num);
     if(isNaN(num)){//berifico che sia un numero
         document.getElementById("risp").innerHTML="valore non valido";
