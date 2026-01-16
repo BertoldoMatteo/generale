@@ -1,55 +1,131 @@
-var studenti=[]
+var studenti = [];
+var rim = false;
 
-var mappa=new Map(
-    ["7", ["S01", "S02", "S03"]],
-    ["8", ["S04", "S05", "S06"]],
-    ["9", ["S07", "S08", "S09"]],
-    ["10", ["S11", "S14"]],
-    ["11", ["S15"]]
-)
+var mappa = new Map([
+    ["7", ["1", "2", "3"]],
+    ["8", ["4", "5", "6"]],
+    ["9", ["7", "8", "9"]],
+    ["10", ["11", "14"]],
+    ["11", ["15"]]
+]);
 
-var turno=document.getElementById('turno').value
-var stud=document.getElementById('stud').value
+var turno;
+var stud;
 
-function aggiungi(){
-    let err=controllo(turno, stud);
-    if(err){
-        for(let valore of mappa.values()){
-            if(valore==stud){
-                document.getElementById("risp").innerHTML="Lo studente "+ stud+ " è già presente nel turno "+mappa.get(stud);
-                return   
+function Valori() {
+    turno = document.querySelector("select").value;
+    stud = document.getElementById("stud").value;
+}
+
+function Stampa() {
+    for (let [chiave, valore] of mappa) {
+        let tr = document.getElementById("tr" + chiave);
+
+        for (let elem of valore) {
+            let td = document.createElement("td");
+            td.textContent = elem < 10 ? "S0" + elem : "S" + elem;
+            tr.appendChild(td);
+        }
+    }
+}
+
+function controlloTurno() {
+    if (turno == 0 || turno === "") {
+        document.getElementById("risp").innerHTML = "Inserire il turno";
+        return false;
+    }
+    return true;
+}
+
+function controlloStud() {
+    if (isNaN(stud) || stud < 1) {
+        document.getElementById("risp").innerHTML = "Inserire numero valido >0";
+        return false;
+    }
+    return true;
+}
+
+function Cerca() {
+    Valori();
+    for (let [chiave, valore] of mappa) {
+        let index = valore.indexOf(stud);
+
+        if (index !== -1) {
+
+            if (rim) {
+                    valore.splice(index, 1);
+                    return true;
             }
+            document.getElementById("risp").innerHTML =
+                (stud < 10 ? "Lo studente S0" + stud : "Lo studente S" + stud) +
+                " è presente nel turno " + chiave;
+
+            return true;
         }
-        mappa.set(turno,stud);
-        let tr=document.getElementById("tr"+turno)
-        let td=document.createElement("td");
-        if(stud<10){
-           td.textContent="S0"+stud; 
+    }
+    return false;
+}
+
+
+function Verifica() {
+    Valori();
+    if (controlloStud()) {
+        let trovato = Cerca();
+        if (!trovato) {
+            document.getElementById("risp").innerHTML =
+                "Lo studente S" + stud + " non è presente in nessun turno";
         }
-        else{
-            td.textContent="S"+stud;
-        }
+    }
+}
+
+function aggiungi() {
+    Valori();
+
+    if (controlloTurno() && controlloStud()) {
+        if (Cerca()) return;
+
+        let tur = mappa.get(turno);
+        tur.push(stud);
+
+        let tr = document.getElementById("tr" + turno);
+        let td = document.createElement("td");
+        td.textContent = stud < 10 ? "S0" + stud : "S" + stud;
         tr.appendChild(td);
+
+        document.getElementById("risp").innerHTML = "Studente aggiunto correttamente";
     }
 }
 
+function rimuovi() {
+    Valori();
 
-function controllo(azione){
-    let turno=document.getElementById('turno').value
-    let stud=document.getElementById('stud').value
-    if(turno==0){
-        document.getElementById("risp").innerHTML="Inserire il turno";
-        return false
+    if (controlloTurno() && controlloStud()) {
+        rim = true;
+        let trovato = Cerca();
+        rim = false;
+
+        if (trovato) {
+            document.getElementById("risp").innerHTML =
+                (stud < 10 ? "Lo studente S0" + stud : "Lo studente S" + stud) +
+                " è stato eliminato";
+
+            Stampa();
+        } else {
+            document.getElementById("risp").innerHTML =
+                "Lo studente non è presente in questo turno";
+        }
     }
-    else if(isNaN(stud) || stud<1){
-        document.getElementById("risp").innerHTML="Inserire numero valido >1";
-        return false
-    }
-    return true
 }
 
-azione=="aggiungi" ?  aggiungi(turno, stud) :
-    azione=="tot-turni" ? TotTurni() :
-    azione=="tot-studenti" ? TotStud() :
-    azione=="codStudente" ? stud()  :
-    rimstud();
+function ContaTurni() {
+    let count = mappa.size;
+    document.getElementById("risp").innerHTML = "Sono presenti " + count + " turni";
+}
+
+function ContaStudenti() {
+    let count = 0;
+    for (let valore of mappa.values()) {
+        count += valore.length;
+    }
+    document.getElementById("risp").innerHTML = "Sono presenti " + count + " studenti";
+}
