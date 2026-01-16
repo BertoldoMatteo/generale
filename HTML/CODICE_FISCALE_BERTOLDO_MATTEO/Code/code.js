@@ -68,28 +68,31 @@ function aggiungiRigaCSV(stringa) {
 
 
 function salva(){
-    scaricaCSV("./CodiciFiscali");
+    scaricaCSV("CodiciFiscali"); // nome semplice, senza slash
 }
-// Funzione per scaricare il file CSV
-    
+
 function scaricaCSV(nomeFile) {
-    // Crea un blob con il contenuto CSV
-    let blob = new Blob([csvContenuto], { type: 'text/csv' });
+    if (!csvContenuto || csvContenuto.trim() === "") {
+        console.warn("Nessun contenuto CSV da salvare.");
+        return;
+    }
 
-    // Crea un URL per il blob
-    let url = URL.createObjectURL(blob);
+    const blob = new Blob([csvContenuto], { type: 'text/csv;charset=utf-8;' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
 
-    // Crea un link per il download
-    let link = document.createElement('a');
-    link.href = url;
-    link.download = nomeFile;
+    // Usa il nome passato
+    a.download = nomeFile.endsWith(".csv") ? nomeFile : nomeFile + ".csv";
 
-    // Simula il click sul link per avviare il download
-    link.click();
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 
-    // Rilascia l'oggetto URL
-    URL.revokeObjectURL(url);
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
+
+
+
 
 
 
