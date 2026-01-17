@@ -1,5 +1,5 @@
-var studenti = [];
-var rim = false;
+
+//var rim = false;
 
 var mappa = new Map([
     ["7", ["1", "2", "3"]],
@@ -17,20 +17,51 @@ function Valori() {
     stud = document.getElementById("stud").value;
 }
 
-function Stampa() {
-    for (let [chiave, valore] of mappa) {
-        let tr = document.getElementById("tr" + chiave);
+function Elimina(){
+    const elementoDaRimuovere = document.querySelector('#tab');
+    
+    // Controlla se l'elemento esiste prima di rimuoverlo
+    if (elementoDaRimuovere) {
+        elementoDaRimuovere.remove(); // Rimuove l'elemento [1, 23, 25]
+}
+}
 
+function Stampa() {
+    Elimina();
+
+    let tab=document.createElement("table");
+    tab.id="tab";
+
+    let turni=["7:00 / 8:00","8:00 / 9:00","9:00 / 10:00","9:00 / 10:00","10:00 / 11:00","11:00 / 12:00"]
+    let tr = document.createElement("tr");
+    let th= document.createElement("th");
+    let th1= document.createElement("th");
+    th.textContent="TURNO";
+    th1.textContent="STUDENTE";
+    tr.appendChild(th);
+    tr.appendChild(th1);
+    tab.appendChild(tr);
+
+
+    for (let [chiave, valore] of mappa) {
+        let tr = document.createElement("tr");
+        let td = document.createElement("td");
+        td.textContent=turni[chiave-7];
+        tr.appendChild(td);
+        
         for (let elem of valore) {
             let td = document.createElement("td");
+            td.id=elem;
             td.textContent = elem < 10 ? "S0" + elem : "S" + elem;
             tr.appendChild(td);
         }
+        tab.appendChild(tr);
     }
+    document.body.appendChild(tab);
 }
 
 function controlloTurno() {
-    if (turno == 0 || turno === "") {
+    if (turno == 0 || turno==null) {
         document.getElementById("risp").innerHTML = "Inserire il turno";
         return false;
     }
@@ -45,33 +76,30 @@ function controlloStud() {
     return true;
 }
 
-function Cerca() {
+function Cerca(rim) {
     Valori();
+    let index=-1;
     for (let [chiave, valore] of mappa) {
-        let index = valore.indexOf(stud);
-
+        index = valore.indexOf(stud);
+         
         if (index !== -1) {
-
-            if (rim) {
-                    valore.splice(index, 1);
-                    return true;
-            }
             document.getElementById("risp").innerHTML =
                 (stud < 10 ? "Lo studente S0" + stud : "Lo studente S" + stud) +
                 " è presente nel turno " + chiave;
 
-            return true;
+            break;
         }
     }
-    return false;
+    return index;
 }
 
 
 function Verifica() {
     Valori();
     if (controlloStud()) {
-        let trovato = Cerca();
-        if (!trovato) {
+        let trovato = Cerca(false);
+       
+        if (trovato==-1) {
             document.getElementById("risp").innerHTML =
                 "Lo studente S" + stud + " non è presente in nessun turno";
         }
@@ -82,15 +110,11 @@ function aggiungi() {
     Valori();
 
     if (controlloTurno() && controlloStud()) {
-        if (Cerca()) return;
+        if (Cerca(false)!=-1) return;
 
         let tur = mappa.get(turno);
         tur.push(stud);
-
-        let tr = document.getElementById("tr" + turno);
-        let td = document.createElement("td");
-        td.textContent = stud < 10 ? "S0" + stud : "S" + stud;
-        tr.appendChild(td);
+        Stampa();
 
         document.getElementById("risp").innerHTML = "Studente aggiunto correttamente";
     }
@@ -98,21 +122,23 @@ function aggiungi() {
 
 function rimuovi() {
     Valori();
+     
+    if (controlloStud()) {
+        let index = Cerca(true);
 
-    if (controlloTurno() && controlloStud()) {
-        rim = true;
-        let trovato = Cerca();
-        rim = false;
-
-        if (trovato) {
+        if (index!=-1) {
             document.getElementById("risp").innerHTML =
                 (stud < 10 ? "Lo studente S0" + stud : "Lo studente S" + stud) +
                 " è stato eliminato";
-
+            for(let valore of mappa.values()){
+                if(valore.includes(stud)){
+                    valore.splice(index,1);
+                }
+            }
             Stampa();
         } else {
             document.getElementById("risp").innerHTML =
-                "Lo studente non è presente in questo turno";
+                "Lo studente non è presente nell' elenco";
         }
     }
 }
