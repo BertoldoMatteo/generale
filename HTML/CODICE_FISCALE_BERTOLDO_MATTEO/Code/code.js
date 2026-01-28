@@ -13,30 +13,14 @@ function showfile(input){
     }
 }
 
-function trovaComune(testo){
-    let Comune=document.getElementById("LuogoDiNascita").value;
-    Comune=Comune.toUpperCase();
-    let array= testo.split("\r\n");
-    let luogo="Luogo non trovato";
-    console.log(array.join(", "));
-    for(let i=0;i<array.length;i++){
-        if(array[i].includes(Comune) && array[i].slice(0,Comune.length)==Comune){
-            luogo=array[i].slice(-4);
-        }
-        console.log(luogo);
-    }
-    return luogo;
-}
-
-
 function Calcola(){
     let str="";
     let cognome=(document.getElementById("cognome").value).toUpperCase();
     let nome=(document.getElementById("nome").value).toUpperCase();
     let sesso=document.getElementById("sesso").value;
     let data=document.getElementById("DataDiNascita").value;
-    let codLuogo=trovaComune(testo); //do il testo del file alla funzione che troverà il comune Corrispondente;
-    let contr=controllo(cognome, nome, sesso, codLuogo);
+    let luogo=(document.getElementById("LuogoDiNascita").value).toUpperCase();
+    let contr=controllo(cognome, nome, sesso, luogo, data);
     if(contr=="errore"){
         document.getElementById("risposta").innerHTML="errore";
     }
@@ -44,45 +28,27 @@ function Calcola(){
         str+=Cognome(cognome);
         str+=Nome(nome);
         str+=Data(data, sesso);
-        str+=codLuogo;
+        str+=trovaComune(testo); //do il testo del file alla funzione che troverà il comune Corrispondente;
         str+=verifica(str);
         document.getElementById("risposta").innerHTML="Il cosice fiscale è: "+ str;
     }
     
 }
 
-function controllo(c,n,s,l){
+function controllo(c,n,s,l,d){
     let ascii;
-    for(let i of c){
+    let controllo=c+n+s+l;
+    for(let i of controllo){
         let ascii=i.charCodeAt(0);
         if(ascii<65 || ascii>90){
             return "errore";
         }
     }
-    for(let i of n){
-        let ascii=i.charCodeAt(0);
-        if(ascii<65 || ascii>90){
-            return "errore";
-        }
+    if(d.slice(4)<=1900 || d.slice(4)>=2026){
+        return "errore";
     }
-    for(let i of s){
-        let ascii=i.charCodeAt(0);
-        if(ascii<65 || ascii>90){
-            return "errore";
-        }
-    }
-    ascii=parseInt(l.charCodeAt(0));
-    if(ascii<65 || ascii>90){
-            return "errore";
-        }
-    for(let i=1;i<=l.lenght;i++){
-        ascii=parseInt(l.charCodeAt(i));
-        if(ascii<48 || ascii>57){
-            return "errore";
-        }
-    }
-    return "corretto";
-    
+
+   return "corretto";
 }
 
 function Cognome(cognome){
