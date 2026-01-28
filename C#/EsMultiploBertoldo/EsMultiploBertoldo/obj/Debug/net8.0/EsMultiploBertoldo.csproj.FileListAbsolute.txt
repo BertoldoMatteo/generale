@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\bin\Debug\net8.0\EsMultiploBertoldo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\bin\Debug\net8.0\EsMultiploBertoldo.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\bin\Debug\net8.0\EsMultiploBertoldo.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\bin\Debug\net8.0\EsMultiploBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\bin\Debug\net8.0\EsMultiploBertoldo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\refint\EsMultiploBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\EsMultiploBertoldo.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMultiploBertoldo\EsMultiploBertoldo\obj\Debug\net8.0\ref\EsMultiploBertoldo.dll
