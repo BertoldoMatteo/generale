@@ -8,6 +8,9 @@ body{
     height: 100vh;
     font-size: 18px;
 }
+div{
+    margin-bottom: 10px;
+}
 form{
     background-color: rgba(255, 255, 255, 0.15); 
     backdrop-filter: blur(10px);
@@ -33,4 +36,10 @@ a{
     border-radius:5px;
     text-decoration: none;
     color: black;
+}
+
+input,select{
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }

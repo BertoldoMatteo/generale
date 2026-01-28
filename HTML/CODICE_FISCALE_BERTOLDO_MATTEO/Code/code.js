@@ -13,7 +13,27 @@ function showfile(input){
     }
 }
 
+<<<<<<< HEAD
 function Calcola(){
+=======
+function trovaComune(testo){    //trovo il codice del Comune
+    let Comune=document.getElementById("LuogoDiNascita").value;
+    Comune=Comune.toUpperCase();
+    let array= testo.split("\r\n");
+    let luogo="Luogo non trovato";
+    console.log(array.join(", "));
+    for(let i=0;i<array.length;i++){
+        if(array[i].includes(Comune) && array[i].slice(0,Comune.length)==Comune){
+            luogo=array[i].slice(-4);
+        }
+        console.log(luogo);
+    }
+    return luogo;
+}
+
+
+function Calcola(){ // calcolo il codice
+>>>>>>> 7f15b1237e9d3288537d40d4d78de1cb603dea56
     let str="";
     let cognome=(document.getElementById("cognome").value).toUpperCase();
     let nome=(document.getElementById("nome").value).toUpperCase();
@@ -31,27 +51,105 @@ function Calcola(){
         str+=trovaComune(testo); //do il testo del file alla funzione che troverà il comune Corrispondente;
         str+=verifica(str);
         document.getElementById("risposta").innerHTML="Il cosice fiscale è: "+ str;
+        aggiungiRigaCSV(str);
+
     }
-    
 }
 
+<<<<<<< HEAD
 function controllo(c,n,s,l,d){
     let ascii;
     let controllo=c+n+s+l;
     for(let i of controllo){
+=======
+let csvContenuto = "";  // Variabile globale per contenere il contenuto del CSV
+
+
+// Funzione per aggiungere una riga al CSV
+function aggiungiRigaCSV(stringa) {
+    // Aggiungi la stringa come nuova riga (se non è la prima, aggiungi anche un ritorno a capo)
+    if (csvContenuto.length > 0) {
+        csvContenuto += '\n';  // Aggiungi una nuova riga (line break)
+    }
+    csvContenuto += stringa;  // Aggiungi la nuova stringa
+
+    console.log(`Aggiunta la riga: ${stringa}`);
+}
+
+
+function salva(){
+    scaricaCSV("CodiciFiscali"); // nome semplice, senza slash
+}
+
+function scaricaCSV(nomeFile) {
+    if (!csvContenuto || csvContenuto.trim() === "") {
+        console.warn("Nessun contenuto CSV da salvare.");
+        return;
+    }
+
+    const blob = new Blob([csvContenuto], { type: 'text/csv;charset=utf-8;' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+
+    // Usa il nome passato
+    a.download = nomeFile.endsWith(".csv") ? nomeFile : nomeFile + ".csv";
+
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+
+
+
+
+
+function controllo(c,n,s,l){ // controllo dei dati
+    let ascii;
+    for(let i of c){ // controllo cognome
+>>>>>>> 7f15b1237e9d3288537d40d4d78de1cb603dea56
         let ascii=i.charCodeAt(0);
         if(ascii<65 || ascii>90){
             return "errore";
         }
     }
+<<<<<<< HEAD
     if(d.slice(4)<=1900 || d.slice(4)>=2026){
         return "errore";
     }
 
    return "corretto";
+=======
+    for(let i of n){ // controllo nome
+        let ascii=i.charCodeAt(0);
+        if(ascii<65 || ascii>90){
+            return "errore";
+        }
+    }
+    for(let i of s){ // controllo sesso
+        let ascii=i.charCodeAt(0);
+        if(ascii<65 || ascii>90){
+            return "errore";
+        }
+    }
+    ascii=parseInt(l.charCodeAt(0));
+    if(ascii<65 || ascii>90){ // controllo codice carattere
+            return "errore";
+        }
+    for(let i=1;i<=l.lenght;i++){ // controllo codice numeri
+        ascii=parseInt(l.charCodeAt(i));
+        if(ascii<48 || ascii>57){
+            return "errore";
+        }
+    }
+    return "corretto";
+    
+>>>>>>> 7f15b1237e9d3288537d40d4d78de1cb603dea56
 }
 
-function Cognome(cognome){
+function Cognome(cognome){ // controllo cognome
     let str="";
     var count=0;
     let ascii="";
@@ -63,7 +161,7 @@ function Cognome(cognome){
         count++;
         }
     }
-    if(count<3){
+    if(count<3){ // se le consonanti non sono abbastanza, aggiungo le vocali
         for(let i of cognome){
             ascii=i.charCodeAt(0);
             if((ascii== "65" || ascii =="69" || ascii=="73" || ascii=="79" || ascii=="85")&& count<3){
@@ -72,20 +170,20 @@ function Cognome(cognome){
             }
         }
     }
-    if(count<3){
+    if(count<3){ // aggiungo X per riempire spazi in caso di caratteri insufficienti
         for(let i=count;i<3;i++) str+="X";
     }
     return str;
 }
 
-function Nome(nome){
+function Nome(nome){ // controllo nome
     let str="";
     var count=0;
     let ascii;
     for(let i of nome){
         ascii=i.charCodeAt(0);
         console.log(ascii);
-        if(ascii!="65" && ascii !="69" && ascii!="73" && ascii!="79" && ascii!="85" && count<4){
+        if(ascii!="65" && ascii !="69" && ascii!="73" && ascii!="79" && ascii!="85" && count<4){ // aggiungo le consonanti tranne la seconda
             count++;
             if(count!=2) str+=i;
             
@@ -120,50 +218,10 @@ function Nome(nome){
 function Data(data, sesso){
     let str="";
     let anno=data.slice(2,4);
-    let mese=data.slice(5,7);
+    let mese=parseInt(data.slice(5,7));
     let giorno=parseInt(data.slice(8,10));
-    
-    switch (mese){
-        case "01":
-            mese="A";
-        break;
-        case "02":
-            mese="B";
-        break;
-        case "03":
-            mese="C";
-        break;
-        case "04":
-            mese="D";
-        break;
-        case "05":
-            mese="E";
-        break;
-        case "06":
-            mese="H";
-        break;
-        case "07":
-            mese="L";
-        break;
-        case "08":
-            mese="M";
-        break;
-        case "09":
-            mese="P";
-        break;
-        case "10":
-            mese="R";
-        break;
-        case "11":
-            mese="S";
-        break;
-        case "12":
-            mese="T";
-        break;
-        default:
-            mese="errore";
-        break;
-    }
+    let m=["A","B","C","D","E","H","L","M","P","R","S","T"];
+    mese=m[mese-1];
     if(sesso=="F"){
         giorno+=40;
     }
@@ -174,7 +232,7 @@ function Data(data, sesso){
     return str;
 }
 
-function verifica(codice){
+function verifica(codice){ // calcolo ultima cifra di verifica
     let somma=0;
     codice=codice.toString();
     let ascii=0;
@@ -183,6 +241,7 @@ function verifica(codice){
     for(let num of codice){
         ascii=num.charCodeAt();
         count+=1;
+        
         if(ascii>64 && ascii<91){
             ascii-=65;
         }else{
@@ -190,90 +249,12 @@ function verifica(codice){
         }
         ascii=ascii.toString();
         if(count%2==1){
-            switch(ascii){
-                case "0":
-                    ascii=1;
-                break;
-                case "1":
-                    ascii=0;
-                break;
-                case "2":
-                    ascii=5;
-                break;
-                case "3":
-                    ascii=7;
-                break;
-                case "4":
-                    ascii=9;
-                break;
-                case "5":
-                    ascii=13;
-                break;
-                case "6":
-                    ascii=15;
-                break;
-                case "7":
-                    ascii=17;
-                break;
-                case "8":
-                    ascii=19;
-                break;
-                case "9":
-                    ascii=21;
-                break;
-                case "10":
-                    ascii=2;
-                break;
-                case "11":
-                    ascii=4;
-                break;
-                case "12":
-                    ascii=18;
-                break;
-                case "13":
-                    ascii=20;
-                break;
-                case "14":
-                    ascii=11;
-                break;
-                case "15":
-                    ascii=3;
-                break;
-                case "16":
-                    ascii=6;
-                break;
-                case "17":
-                    ascii=8;
-                break;
-                case "18":
-                    ascii=12;
-                break;
-                case "19":
-                    ascii=14;
-                break;
-                case "20":
-                    ascii=16;
-                break;
-                case "21":
-                    ascii=10;
-                break;
-                case "22":
-                    ascii=22;
-                break;
-                case "23":
-                    ascii=25;
-                break;
-                case "24":
-                    ascii=24;
-                break;
-                case "25":
-                    ascii=23;
-                break;
-            }
+            let cd=[1,0,5,7,9,13,15,17,19,21,2,4,18,20,11,3,6,8,12,14,16,10,22,25,24,23];
+            ascii=cd[ascii];
         }
-    ascii=parseInt(ascii)
-    somma+=ascii;
-}
+        ascii=parseInt(ascii)
+        somma+=ascii;
+    }
     
     somma=somma%26;
     somma+=65;

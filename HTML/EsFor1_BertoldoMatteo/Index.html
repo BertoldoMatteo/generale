@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForOf</title>
+    <script src="Code/code.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <p>Inserisci un numero e premi Invia per inviarlo,
+     una volta finito di compilarli,
+     clicca su Calcola per ottenere risulati</p>
+    <form>
+        <input type="number" id="num">
+        <input id="invia" type="button" onclick="Invio(document.getElementById('num').value)" value="Invia numero">
+        <input type="button" onclick="Calcolo()" value="Calcola">
+    </form>
+    <p id="array"></p>
+    <p id="risp"></p>
+</body>
+</html>
