@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\bin\Debug\net8.0\EsestrazioneBertoldo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\bin\Debug\net8.0\EsestrazioneBertoldo.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\bin\Debug\net8.0\EsestrazioneBertoldo.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\bin\Debug\net8.0\EsestrazioneBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\bin\Debug\net8.0\EsestrazioneBertoldo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\refint\EsestrazioneBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\EsestrazioneBertoldo.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsestrazioneBertoldo\EsestrazioneBertoldo\obj\Debug\net8.0\ref\EsestrazioneBertoldo.dll

@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\bin\Debug\net8.0\EsMoneteBertoldo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\bin\Debug\net8.0\EsMoneteBertoldo.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\bin\Debug\net8.0\EsMoneteBertoldo.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\bin\Debug\net8.0\EsMoneteBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\bin\Debug\net8.0\EsMoneteBertoldo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\refint\EsMoneteBertoldo.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\EsMoneteBertoldo.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMoneteBertoldo\EsMoneteBertoldo\obj\Debug\net8.0\ref\EsMoneteBertoldo.dll
