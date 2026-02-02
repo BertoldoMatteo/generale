@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsMCDBertoldo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2a30387c95526f837b1e7848ecb05f596f51956")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5881f98f63f6ffd4c9071e1c243559c988255ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsMCDBertoldo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsMCDBertoldo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

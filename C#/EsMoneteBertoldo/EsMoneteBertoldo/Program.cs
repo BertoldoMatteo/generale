@@ -5,28 +5,26 @@ namespace EsMoneteBertoldo
     {
         static void Main(string[] args)
         {
-            int max = 5;
-            double mon = 0;
-            double monTot = 0;
+            const float max = 5;
+            float mon = 0;
+            float monTot = 0f; //portafoglio delle monete
             int count = 0;
+
             while(monTot < max)
             {
                 Console.WriteLine("Posso una moneta?");
                 Console.WriteLine("Inserisci il valore della moneta donata: ");
                 Console.WriteLine("(Se non vuoi darmi una moneta inserisci '0')");
-                bool x = double.TryParse(Console.ReadLine(), out mon);
-                if(x && mon >= 0)
+                bool x = float.TryParse(Console.ReadLine(), out mon);
+                if(x && (mon==0.05 || mon==0.10 || mon==0.2 || mon==0.5 || mon==1 || mon==2))
                 {
-                    if(mon > 0)
-                    {
-                        monTot += mon;
-                        count++;
-                        Console.WriteLine($"Grazie per la moneta numero {count} di valore {mon}");
-                    }
+                    monTot += mon;
+                    count++;
+                    Console.WriteLine($"Grazie per la moneta numero {count} di valore {mon}");
                 }
                 else
                 {
-                                       Console.WriteLine("Valore non valido, riprova.");
+                    Console.WriteLine("Valore non valido, riprova.");
                 }
             }
             Console.WriteLine("Ho abbastanza monete per la colazione, grazie!");

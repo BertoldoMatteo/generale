@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsAmicaliBM", "EsAmicaliBM\EsAmicaliBM.csproj", "{DBD0C860-EEBD-427F-9325-F67C7256E337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBD0C860-EEBD-427F-9325-F67C7256E337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD0C860-EEBD-427F-9325-F67C7256E337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD0C860-EEBD-427F-9325-F67C7256E337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD0C860-EEBD-427F-9325-F67C7256E337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {990E76F8-DB01-489D-919E-454FBC101AE9}
+	EndGlobalSection
+EndGlobal

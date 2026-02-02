@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\bin\Debug\net8.0\EsCollatzBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\bin\Debug\net8.0\EsCollatzBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\bin\Debug\net8.0\EsCollatzBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\bin\Debug\net8.0\EsCollatzBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\bin\Debug\net8.0\EsCollatzBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\refint\EsCollatzBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\EsCollatzBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCollatzBM\EsCollatzBM\obj\Debug\net8.0\ref\EsCollatzBM.dll

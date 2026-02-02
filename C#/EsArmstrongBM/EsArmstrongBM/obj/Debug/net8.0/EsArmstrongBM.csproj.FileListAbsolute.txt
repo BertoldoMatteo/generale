@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\bin\Debug\net8.0\EsArmstrongBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\bin\Debug\net8.0\EsArmstrongBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\bin\Debug\net8.0\EsArmstrongBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\bin\Debug\net8.0\EsArmstrongBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\bin\Debug\net8.0\EsArmstrongBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\refint\EsArmstrongBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\EsArmstrongBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArmstrongBM\EsArmstrongBM\obj\Debug\net8.0\ref\EsArmstrongBM.dll

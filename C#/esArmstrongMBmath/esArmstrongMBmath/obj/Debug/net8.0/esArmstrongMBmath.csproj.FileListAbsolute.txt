@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\bin\Debug\net8.0\esArmstrongMBmath.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\bin\Debug\net8.0\esArmstrongMBmath.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\bin\Debug\net8.0\esArmstrongMBmath.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\bin\Debug\net8.0\esArmstrongMBmath.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\bin\Debug\net8.0\esArmstrongMBmath.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\refint\esArmstrongMBmath.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\esArmstrongMBmath.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\esArmstrongMBmath\esArmstrongMBmath\obj\Debug\net8.0\ref\esArmstrongMBmath.dll
