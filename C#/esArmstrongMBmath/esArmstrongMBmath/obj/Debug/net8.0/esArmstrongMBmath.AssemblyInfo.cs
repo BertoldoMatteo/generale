@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("esArmstrongMBmath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5881f98f63f6ffd4c9071e1c243559c988255ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cc18c349737d057d7213b1d1f51cf663c9bfe7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("esArmstrongMBmath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("esArmstrongMBmath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
