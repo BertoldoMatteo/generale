@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\bin\Debug\net8.0\EsRobotBM.exe
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\bin\Debug\net8.0\EsRobotBM.deps.json
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\bin\Debug\net8.0\EsRobotBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\bin\Debug\net8.0\EsRobotBM.dll
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\bin\Debug\net8.0\EsRobotBM.pdb
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.dll
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\refint\EsRobotBM.dll
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.pdb
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\ref\EsRobotBM.dll

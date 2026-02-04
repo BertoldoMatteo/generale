@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\bin\Debug\net8.0\EsPiramideBM.exe
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\bin\Debug\net8.0\EsPiramideBM.deps.json
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\bin\Debug\net8.0\EsPiramideBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\bin\Debug\net8.0\EsPiramideBM.dll
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\bin\Debug\net8.0\EsPiramideBM.pdb
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.dll
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\refint\EsPiramideBM.dll
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.pdb
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\EsPiramideBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\AI\EsPiramideBM\EsPiramideBM\obj\Debug\net8.0\ref\EsPiramideBM.dll

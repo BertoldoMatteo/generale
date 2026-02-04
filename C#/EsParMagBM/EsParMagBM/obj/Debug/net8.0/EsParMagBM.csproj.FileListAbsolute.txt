@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\bin\Debug\net8.0\EsParMagBM.exe
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\bin\Debug\net8.0\EsParMagBM.deps.json
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\bin\Debug\net8.0\EsParMagBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\bin\Debug\net8.0\EsParMagBM.dll
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\bin\Debug\net8.0\EsParMagBM.pdb
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.dll
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\refint\EsParMagBM.dll
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.pdb
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\EsParMagBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\AI\EsParMagBM\EsParMagBM\obj\Debug\net8.0\ref\EsParMagBM.dll

@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\bin\Debug\net8.0\EsAgentiBM.exe
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\bin\Debug\net8.0\EsAgentiBM.deps.json
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\bin\Debug\net8.0\EsAgentiBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\bin\Debug\net8.0\EsAgentiBM.dll
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\bin\Debug\net8.0\EsAgentiBM.pdb
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.dll
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\refint\EsAgentiBM.dll
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.pdb
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\EsAgentiBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\AI\EsAgentiBM\EsAgentiBM\obj\Debug\net8.0\ref\EsAgentiBM.dll
