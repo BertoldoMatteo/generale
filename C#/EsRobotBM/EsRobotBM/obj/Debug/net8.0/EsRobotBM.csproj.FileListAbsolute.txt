@@ -12,3 +12,11 @@ C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\refint\EsRobotBM.d
 C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.pdb
 C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\AI\EsRobotBM\EsRobotBM\obj\Debug\net8.0\ref\EsRobotBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\refint\EsRobotBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRobotBM\EsRobotBM\obj\Debug\net8.0\EsRobotBM.pdb

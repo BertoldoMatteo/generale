@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsParMagBM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f01986dc9b5539ee0e594e757684dbe167aa0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsParMagBM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsParMagBM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

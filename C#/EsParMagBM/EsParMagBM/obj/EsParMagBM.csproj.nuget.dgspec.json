@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\AI\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\AI\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\AI\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj",
         "projectName": "EsParMagBM",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsParMagBM\\EsParMagBM\\EsParMagBM.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsParMagBM\\EsParMagBM\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsParMagBM\\EsParMagBM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

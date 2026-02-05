@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\AI\\EsRobotBM\\EsRobotBM\\EsRobotBM.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsRobotBM\\EsRobotBM\\EsRobotBM.csproj",
       "projectName": "EsRobotBM",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsRobotBM\\EsRobotBM\\EsRobotBM.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsRobotBM\\EsRobotBM\\EsRobotBM.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsRobotBM\\EsRobotBM\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsRobotBM\\EsRobotBM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

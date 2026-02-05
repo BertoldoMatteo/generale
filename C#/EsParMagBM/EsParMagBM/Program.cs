@@ -8,9 +8,13 @@ namespace EsParMagBM
         static void Main(string[] args)
         {
             string vocali = "aeiou";
-            Write("Inserisci una parola: ");
-            string parola = ReadLine().ToLower();//prendo in imput la parola e la trasformo in minuscola per verificare la presenza delle vocali
-
+            string parola = "";
+            
+            while(parola.Length == 0)
+            {
+                Write("Inserisci una parola: ");
+                parola = ReadLine().ToLower();//prendo in imput la parola e la trasformo in minuscola per verificare la presenza delle vocali
+            }
             for (int i = 0; i < parola.Length; i++)
             {
                 // Cerco dove si trova la vocale della parola dentro la stringa "aeiou"

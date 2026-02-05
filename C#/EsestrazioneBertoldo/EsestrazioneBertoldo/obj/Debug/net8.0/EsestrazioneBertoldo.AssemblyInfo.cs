@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsestrazioneBertoldo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2a30387c95526f837b1e7848ecb05f596f51956")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f01986dc9b5539ee0e594e757684dbe167aa0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsestrazioneBertoldo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsestrazioneBertoldo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
