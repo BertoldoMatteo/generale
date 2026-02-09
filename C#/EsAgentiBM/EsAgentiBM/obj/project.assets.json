@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\AI\\EsAgentiBM\\EsAgentiBM\\EsAgentiBM.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAgentiBM\\EsAgentiBM\\EsAgentiBM.csproj",
       "projectName": "EsAgentiBM",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsAgentiBM\\EsAgentiBM\\EsAgentiBM.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAgentiBM\\EsAgentiBM\\EsAgentiBM.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsAgentiBM\\EsAgentiBM\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAgentiBM\\EsAgentiBM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

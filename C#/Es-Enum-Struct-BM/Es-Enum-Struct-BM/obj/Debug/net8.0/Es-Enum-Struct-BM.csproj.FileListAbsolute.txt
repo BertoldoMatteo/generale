@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\bin\Debug\net8.0\Es-Enum-Struct-BM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\bin\Debug\net8.0\Es-Enum-Struct-BM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\bin\Debug\net8.0\Es-Enum-Struct-BM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\bin\Debug\net8.0\Es-Enum-Struct-BM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\bin\Debug\net8.0\Es-Enum-Struct-BM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\refint\Es-Enum-Struct-BM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\Es-Enum-Struct-BM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\Es-Enum-Struct-BM\Es-Enum-Struct-BM\obj\Debug\net8.0\ref\Es-Enum-Struct-BM.dll

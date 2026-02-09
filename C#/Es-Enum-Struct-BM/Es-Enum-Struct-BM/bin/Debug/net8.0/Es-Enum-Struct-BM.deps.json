@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Es-Enum-Struct-BM/1.0.0": {
+        "runtime": {
+          "Es-Enum-Struct-BM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Es-Enum-Struct-BM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

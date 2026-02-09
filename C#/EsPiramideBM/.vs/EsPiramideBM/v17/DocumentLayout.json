@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\AI\\EsPiramideBM\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPiramideBM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9A811C3-1AF3-4231-BB1C-4F9F98BA45CB}|EsPiramideBM\\EsPiramideBM.csproj|c:\\users\\asus\\desktop\\ai\\espiramidebm\\espiramidebm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9A811C3-1AF3-4231-BB1C-4F9F98BA45CB}|EsPiramideBM\\EsPiramideBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\espiramidebm\\espiramidebm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9A811C3-1AF3-4231-BB1C-4F9F98BA45CB}|EsPiramideBM\\EsPiramideBM.csproj|solutionrelative:espiramidebm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\AI\\EsPiramideBM\\EsPiramideBM\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPiramideBM\\EsPiramideBM\\Program.cs",
               "RelativeDocumentMoniker": "EsPiramideBM\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\AI\\EsPiramideBM\\EsPiramideBM\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPiramideBM\\EsPiramideBM\\Program.cs",
               "RelativeToolTip": "EsPiramideBM\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T07:44:41.914Z",
               "EditorCaption": ""
