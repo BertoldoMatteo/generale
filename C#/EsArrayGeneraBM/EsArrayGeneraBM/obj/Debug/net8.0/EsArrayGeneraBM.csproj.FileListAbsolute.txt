@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\bin\Debug\net8.0\EsArrayGeneraBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\bin\Debug\net8.0\EsArrayGeneraBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\bin\Debug\net8.0\EsArrayGeneraBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\bin\Debug\net8.0\EsArrayGeneraBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\bin\Debug\net8.0\EsArrayGeneraBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\refint\EsArrayGeneraBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\EsArrayGeneraBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayGeneraBM\EsArrayGeneraBM\obj\Debug\net8.0\ref\EsArrayGeneraBM.dll

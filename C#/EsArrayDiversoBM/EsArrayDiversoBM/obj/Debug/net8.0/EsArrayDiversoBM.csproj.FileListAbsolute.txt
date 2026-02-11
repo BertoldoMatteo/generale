@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\bin\Debug\net8.0\EsArrayDiversoBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\bin\Debug\net8.0\EsArrayDiversoBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\bin\Debug\net8.0\EsArrayDiversoBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\bin\Debug\net8.0\EsArrayDiversoBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\bin\Debug\net8.0\EsArrayDiversoBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\refint\EsArrayDiversoBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\EsArrayDiversoBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrayDiversoBM\EsArrayDiversoBM\obj\Debug\net8.0\ref\EsArrayDiversoBM.dll
