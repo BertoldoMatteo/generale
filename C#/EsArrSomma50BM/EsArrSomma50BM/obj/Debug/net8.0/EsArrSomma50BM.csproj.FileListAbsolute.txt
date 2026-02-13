@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\bin\Debug\net8.0\EsArrSomma50BM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\bin\Debug\net8.0\EsArrSomma50BM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\bin\Debug\net8.0\EsArrSomma50BM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\bin\Debug\net8.0\EsArrSomma50BM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\bin\Debug\net8.0\EsArrSomma50BM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\refint\EsArrSomma50BM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\EsArrSomma50BM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsArrSomma50BM\EsArrSomma50BM\obj\Debug\net8.0\ref\EsArrSomma50BM.dll

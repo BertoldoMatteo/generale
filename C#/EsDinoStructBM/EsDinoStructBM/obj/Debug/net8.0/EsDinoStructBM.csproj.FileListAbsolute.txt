@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\bin\Debug\net8.0\EsDinoStructBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\bin\Debug\net8.0\EsDinoStructBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\bin\Debug\net8.0\EsDinoStructBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\bin\Debug\net8.0\EsDinoStructBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\bin\Debug\net8.0\EsDinoStructBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\refint\EsDinoStructBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\EsDinoStructBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDinoStructBM\EsDinoStructBM\obj\Debug\net8.0\ref\EsDinoStructBM.dll

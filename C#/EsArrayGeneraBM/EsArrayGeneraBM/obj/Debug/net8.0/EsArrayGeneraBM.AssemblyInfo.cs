@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsArrayGeneraBM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44066c719ba5b4145335fd4a5dea511c795aa2f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99734d81fa58a3356c5bd691fbf2beb15be0d8a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsArrayGeneraBM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsArrayGeneraBM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
