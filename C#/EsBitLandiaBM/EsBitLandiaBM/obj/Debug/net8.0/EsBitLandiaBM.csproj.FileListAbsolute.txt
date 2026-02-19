@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\bin\Debug\net8.0\EsBitLandiaBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\bin\Debug\net8.0\EsBitLandiaBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\bin\Debug\net8.0\EsBitLandiaBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\bin\Debug\net8.0\EsBitLandiaBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\bin\Debug\net8.0\EsBitLandiaBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\refint\EsBitLandiaBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\EsBitLandiaBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsBitLandiaBM\EsBitLandiaBM\obj\Debug\net8.0\ref\EsBitLandiaBM.dll

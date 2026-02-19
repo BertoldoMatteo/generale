@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsDinoStructBM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99734d81fa58a3356c5bd691fbf2beb15be0d8a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69ca466ea20a9cf6c7a3697d7781d4314aa8f3fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsDinoStructBM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsDinoStructBM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
