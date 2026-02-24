@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\bin\Debug\EsElencoBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\bin\Debug\EsElencoBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\bin\Debug\EsElencoBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsElencoBM\EsElencoBM\obj\Debug\EsElencoBM.exe.config
