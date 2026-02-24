@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\bin\Debug\net8.0\PreVerifica.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\bin\Debug\net8.0\PreVerifica.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\bin\Debug\net8.0\PreVerifica.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\bin\Debug\net8.0\PreVerifica.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\bin\Debug\net8.0\PreVerifica.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\refint\PreVerifica.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\PreVerifica.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\PreVerifica\PreVerifica\obj\Debug\net8.0\ref\PreVerifica.dll

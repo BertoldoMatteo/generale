@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\bin\Debug\ConversioneGradi.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\bin\Debug\ConversioneGradi.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\bin\Debug\ConversioneGradi.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\ConversioneGradi\ConversioneGradi\obj\Debug\ConversioneGradi.exe.config
