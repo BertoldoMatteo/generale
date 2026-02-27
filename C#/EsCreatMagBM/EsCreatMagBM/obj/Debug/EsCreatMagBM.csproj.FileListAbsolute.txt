@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\bin\Debug\EsCreatMagBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\bin\Debug\EsCreatMagBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\bin\Debug\EsCreatMagBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCreatMagBM\EsCreatMagBM\obj\Debug\EsCreatMagBM.exe.config
