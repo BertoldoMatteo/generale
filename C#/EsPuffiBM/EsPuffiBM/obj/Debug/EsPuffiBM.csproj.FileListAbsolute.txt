@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\bin\Debug\EsPuffiBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\bin\Debug\EsPuffiBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\bin\Debug\EsPuffiBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsPuffiBM\EsPuffiBM\obj\Debug\EsPuffiBM.exe.config
