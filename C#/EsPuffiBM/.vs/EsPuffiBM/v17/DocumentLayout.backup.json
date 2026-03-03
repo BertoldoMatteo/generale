@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPuffiBM\\EsPuffiBM\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "EsPuffiBM\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPuffiBM\\EsPuffiBM\\Form1.Designer.cs",
+              "RelativeToolTip": "EsPuffiBM\\Form1.Designer.cs",
+              "ViewState": "AgIAAN8BAAAAAAAAAAAmwOsBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:42:04.538Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -38,26 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPuffiBM\\EsPuffiBM\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "EsPuffiBM\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPuffiBM\\EsPuffiBM\\Form1.Designer.cs",
-              "RelativeToolTip": "EsPuffiBM\\Form1.Designer.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwFUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:42:04.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPuffiBM\\EsPuffiBM\\Form1.cs",
               "RelativeDocumentMoniker": "EsPuffiBM\\Form1.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsPuffiBM\\EsPuffiBM\\Form1.cs",
               "RelativeToolTip": "EsPuffiBM\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAYwCQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:10:56.859Z",
               "EditorCaption": ""
