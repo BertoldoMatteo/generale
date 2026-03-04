@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\bin\Debug\EsIMCBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\bin\Debug\EsIMCBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\bin\Debug\EsIMCBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\obj\Debug\EsIMCBM.exe.config
