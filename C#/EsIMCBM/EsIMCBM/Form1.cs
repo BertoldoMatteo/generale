@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,11 +16,14 @@ namespace EsIMCBM
 {
     public partial class Form1 : Form
     {
-        public int ind;
+        public int ind, lung, index;
         public List<Persona> lista;
-        public double IMC, varianza, somma, media, diff;
-        public string str, comando;
-        public string[] arr = {"Magro(Sottopeso)","Normale(NormoPeso)", "Svovrappeso", "Grasso (Obesità)"};
+        public double IMC, varianza, somma, media, diff, HeigthM;
+        public string str, comando, dir, content;
+        public string[] arr = { "Magro(Sottopeso)", "Normale(NormoPeso)", "Sovrappeso", "Grasso (Obesità)" };
+        public int[] valori;
+        Persona persona;
+
         public struct Persona
         {
             public string name;
@@ -38,13 +42,24 @@ namespace EsIMCBM
             {
                 return $"{name} : peso = {weigth} , altezza = {height}";
             }
+
+            public string descrizioneConIMC(string desc)
+            {
+                return $"{name} : peso = {weigth} , altezza = {height} , IMC = {desc}";
+            }
         }
+
         public Form1()
         {
             InitializeComponent();
             lista = new List<Persona>();
-        }
+            dir = @"C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsIMCBM\EsIMCBM\output.txt";
 
+            if (File.Exists(dir))
+                content = File.ReadAllText(dir);
+            else
+                content = "";
+        }
 
         private void txtPeso_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -73,12 +88,21 @@ namespace EsIMCBM
             person.IMC = CalcoloIMC(person);
             lstPersone.Items.Add(person.descrizione());
             lista.Add(person);
+            content += person.descrizione() + "\n";
         }
 
         private void btnEsegui_Click(object sender, EventArgs e)
         {
             comando = Comando();
             txtRisposte.Text = comando;
+            if (rdbIMC.Checked && lstPersone.SelectedIndex >= 0)
+            {
+                index = lstPersone.SelectedIndex;
+                Persona p = lista[index];
+                str = p.descrizioneConIMC(arr[IndiceIMC(Math.Round(p.IMC, 2))]);
+                lstPersone.Items[index] = str;
+                content = content.Replace(p.descrizione() + "\n", str + "\n");
+            }
         }
 
         public string Comando()
@@ -86,16 +110,16 @@ namespace EsIMCBM
             if (rdbIMCMedia.Checked)
             {
                 media = MediaIMC();
-                IndiceMC(media);
-                str = $"MEDIA IMC = {Math.Round(media,2)}, STATO = " + arr[ind];
+                IndiceIMC(media);
+                str = $"MEDIA IMC = {Math.Round(media, 2)}, STATO = " + arr[ind];
                 return str;
             }
-            else if (rdbIMC.Checked && lstPersone.SelectedIndex >=0)
+            else if (rdbIMC.Checked && lstPersone.SelectedIndex >= 0)
             {
-                Persona persona = new Persona();
+                persona = new Persona();
                 persona = lista[lstPersone.SelectedIndex];
                 IMC = persona.IMC;
-                IndiceMC(IMC);
+                IndiceIMC(IMC);
                 str = $"IMC = {Math.Round(IMC, 2)}, STATO = " + arr[ind];
                 return str;
             }
@@ -119,62 +143,78 @@ namespace EsIMCBM
             }
             else if (rdbMediaSotto.Checked)
             {
-                return "NON HO CAPITO";
-            }else if (rdbIMC.Checked){
+                str = MediaSottogruppo();
+                return str;
+            }
+            else if (rdbIMC.Checked)
+            {
                 return "CLICCARE ELEMENTO NELLA LISTBOX";
             }
-                return "CLICCARE UN RADIO BUTTON";
+            return "CLICCARE UN RADIO BUTTON";
         }
 
-        public int IndiceMC(double IMC)
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText(dir, content);
+            MessageBox.Show("Salvato con successo!", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        public int IndiceIMC(double IMC)
         {
             if (IMC < 18.5) ind = 0;
-            else if(IMC < 25)ind = 1;
-            else if(IMC < 30) ind = 2;
+            else if (IMC < 25) ind = 1;
+            else if (IMC < 30) ind = 2;
             else ind = 3;
-            return ind ;
+            return ind;
         }
 
         public double MediaIMC()
         {
             somma = 0;
             media = 0;
-            for(int i= 0; i<lista.Count; i++)
+            for (int i = 0; i < lista.Count; i++)
             {
-                somma+=CalcoloIMC(lista[i]);
+                somma += CalcoloIMC(lista[i]);
             }
-            media = somma/=lista.Count;
+            media = somma /= lista.Count;
             return media;
         }
 
         public double CalcoloIMC(Persona persona)
         {
             IMC = 0;
-            double HeigthM = persona.height / 100.0;
+            HeigthM = persona.height / 100.0;
             IMC += persona.weigth / (HeigthM * HeigthM);
             return IMC;
         }
 
         public string ModaIMC()
         {
-            somma = 0;
+            ind = 0;
+            int[] mod = new int[4];
             for (int i = 0; i < lista.Count; i++)
             {
                 IMC = lista[i].IMC;
-                somma+=IndiceMC(IMC);
+                mod[IndiceIMC(IMC)]++;
             }
-            somma/=lista.Count;
-            ind = (int)Math.Round(somma);
+            
+            for(int i=0; i<mod.Length; i++)
+            {
+                if(mod[i] > mod[ind])
+                {
+                    ind = i;
+                }
+            }
             return arr[ind];
         }
 
         public string Mediana()
         {
-            int[] valori = new int[lista.Count];
-            int lung = lista.Count;
-            for(int i = 0; i < lung; i++)
+            valori = new int[lista.Count];
+            lung = lista.Count;
+            for (int i = 0; i < lung; i++)
             {
-                valori[i] = (IndiceMC(lista[i].IMC));
+                valori[i] = (IndiceIMC(lista[i].IMC));
             }
             Array.Sort(valori);
             ind = valori[valori.Length / 2];
@@ -186,13 +226,37 @@ namespace EsIMCBM
             diff = 0;
             media = MediaIMC();
             somma = 0;
-            for(int i=0; i<lista.Count; i++)
+            for (int i = 0; i < lista.Count; i++)
             {
                 diff += (lista[i].IMC - media);
                 somma += Math.Pow(diff, 2);
             }
-            varianza= somma/Math.Abs(media);
+            varianza = somma / Math.Abs(media);
             return varianza;
+        }
+
+        public string MediaSottogruppo()
+        {
+            if (lstPersone.SelectedIndex >= 0)
+            {
+                str = $"MediaSottogruppo : {arr[IndiceIMC(lista[lstPersone.SelectedIndex].IMC)]}";
+                ind = IndiceIMC(lista[lstPersone.SelectedIndex].IMC);
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    if (IndiceIMC(lista[i].IMC) == ind)
+                    {
+                        somma += lista[i].IMC;
+                        lung++;
+                    }
+                    media = somma / lung;
+                }
+                str += $" = {media}";
+                return str;
+            }
+            else
+            {
+                return "Seleziona elemento lista";
+            }
         }
     }
 }

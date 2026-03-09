@@ -51,6 +51,7 @@ namespace EsIMCBM
             this.lblComandi = new System.Windows.Forms.Label();
             this.lblRisp = new System.Windows.Forms.Label();
             this.txtRisposte = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -254,11 +255,22 @@ namespace EsIMCBM
             this.txtRisposte.Size = new System.Drawing.Size(400, 44);
             this.txtRisposte.TabIndex = 19;
             // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(454, 393);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(82, 44);
+            this.btnSave.TabIndex = 20;
+            this.btnSave.Text = "SAVE";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtRisposte);
             this.Controls.Add(this.lblRisp);
             this.Controls.Add(this.lblComandi);
@@ -303,6 +315,7 @@ namespace EsIMCBM
         private System.Windows.Forms.Label lblComandi;
         private System.Windows.Forms.Label lblRisp;
         private System.Windows.Forms.TextBox txtRisposte;
+        private Button btnSave;
     }
 }
 
