@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\bin\Debug\EsAllenBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\bin\Debug\EsAllenBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\bin\Debug\EsAllenBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsAllenBM\EsAllenBM\obj\Debug\EsAllenBM.exe.config

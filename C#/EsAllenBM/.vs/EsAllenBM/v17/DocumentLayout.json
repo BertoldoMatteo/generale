@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E91468DD-7AD9-4CB5-B32F-EE4689DAD3A4}|EsAllenBM\\EsAllenBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esallenbm\\esallenbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91468DD-7AD9-4CB5-B32F-EE4689DAD3A4}|EsAllenBM\\EsAllenBM.csproj|solutionrelative:esallenbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91468DD-7AD9-4CB5-B32F-EE4689DAD3A4}|EsAllenBM\\EsAllenBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esallenbm\\esallenbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E91468DD-7AD9-4CB5-B32F-EE4689DAD3A4}|EsAllenBM\\EsAllenBM.csproj|solutionrelative:esallenbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91468DD-7AD9-4CB5-B32F-EE4689DAD3A4}|EsAllenBM\\EsAllenBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esallenbm\\esallenbm\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91468DD-7AD9-4CB5-B32F-EE4689DAD3A4}|EsAllenBM\\EsAllenBM.csproj|solutionrelative:esallenbm\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\EsAllenBM\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "EsAllenBM\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\EsAllenBM\\Form1.Designer.cs",
+              "RelativeToolTip": "EsAllenBM\\Form1.Designer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwF0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T16:27:50.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\EsAllenBM\\Form1.cs",
+              "RelativeDocumentMoniker": "EsAllenBM\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\EsAllenBM\\Form1.cs",
+              "RelativeToolTip": "EsAllenBM\\Form1.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAkwMsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T16:27:37.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\EsAllenBM\\Form1.cs",
+              "RelativeDocumentMoniker": "EsAllenBM\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsAllenBM\\EsAllenBM\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "EsAllenBM\\Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T16:21:35.154Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

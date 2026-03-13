@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\bin\Debug\EsCavFileBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\bin\Debug\EsCavFileBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\bin\Debug\EsCavFileBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsCavFileBM\EsCavFileBM\obj\Debug\EsCavFileBM.exe.config
