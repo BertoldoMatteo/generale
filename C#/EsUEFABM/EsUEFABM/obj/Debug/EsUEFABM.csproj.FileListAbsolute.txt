@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\bin\Debug\EsUEFABM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\bin\Debug\EsUEFABM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\bin\Debug\EsUEFABM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsUEFABM\EsUEFABM\obj\Debug\EsUEFABM.exe.config

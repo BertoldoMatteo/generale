@@ -28,9 +28,9 @@ namespace EsAllenBM
 
         public enum Type
         {
-            corsa,
-            pesi, 
-            nuoto
+            run,
+            weights, 
+            swim
         }
 
         public struct Training
@@ -63,6 +63,7 @@ namespace EsAllenBM
             place = new List<string>();
             separator = ';';
             Download();
+            cmbType.DataSource = Enum.GetValues(typeof(Type));
 
         }
 
