@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\bin\Debug\EsRicettaDigBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\bin\Debug\EsRicettaDigBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\bin\Debug\EsRicettaDigBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsRicettaDigBM\EsRicettaDigBM\obj\Debug\EsRicettaDigBM.exe.config
