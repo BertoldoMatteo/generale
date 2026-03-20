@@ -73,8 +73,8 @@ namespace EsRicettaDigBM
         public string namefile = "ricette.csv";
         public string[] riga, elementi;
         public List<Ricetta> lstRicette;
-        public Ricetta ricetta;
-        public int count;
+        public Ricetta ricetta, key;
+        public int count, j;
         
         public Form1()
         {
@@ -188,14 +188,19 @@ namespace EsRicettaDigBM
 
         private void btnRicerca_Click(object sender, EventArgs e)
         {
-            string nome = Interaction.InputBox("Inserisci ricetta", "RICERCA", "");
-            if(nome.Length != 0)
+            string nome = Interaction.InputBox("Inserisci ricetta (scrivi all per resettare)", "RICERCA", "");
+
+            if (string.IsNullOrEmpty(nome)) return;
+
+            if (nome == "all" || nome == "ALL")
             {
-                lstElenco.Items.Clear();
-                foreach(Ricetta r in lstRicette)
-                {
-                    if (r.name == nome) lstElenco.Items.Add(r.stampa());
-                }
+                CaricaLista();
+                return;
+            }
+            lstElenco.Items.Clear();
+            foreach(Ricetta r in lstRicette)
+            {
+                if (r.name == nome) lstElenco.Items.Add(r.stampa());
             }
         }
 
@@ -210,7 +215,22 @@ namespace EsRicettaDigBM
         public void CaricaLista()
         {
             lstElenco.Items.Clear();
-            lstRicette = lstRicette.OrderBy(r => r.name).ToList();
+            
+            for(int i = 1; i < lstRicette.Count; i++)
+            {
+                key = lstRicette[i];
+                j = i - 1;
+
+
+                while(j >= 0 && string.Compare( lstRicette[j].name , key.name)>0)
+                {
+                    lstRicette[j + 1]= lstRicette[j];
+                    j--;
+                }
+                lstRicette[j + 1] = key;
+            }
+
+
             foreach (Ricetta r in lstRicette)
             {
                 lstElenco.Items.Add(r.stampa());
