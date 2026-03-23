@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.Form2.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\bin\Debug\EsLibriBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\bin\Debug\EsLibriBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\bin\Debug\EsLibriBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsLibriBM\EsLibriBM\obj\Debug\EsLibriBM.exe.config
