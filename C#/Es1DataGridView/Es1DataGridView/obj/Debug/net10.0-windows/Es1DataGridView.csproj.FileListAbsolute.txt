@@ -1,0 +1,16 @@
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\bin\Debug\net10.0-windows\Es1DataGridView.exe
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\bin\Debug\net10.0-windows\Es1DataGridView.deps.json
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\bin\Debug\net10.0-windows\Es1DataGridView.runtimeconfig.json
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\bin\Debug\net10.0-windows\Es1DataGridView.dll
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\bin\Debug\net10.0-windows\Es1DataGridView.pdb
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.Form1.resources
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.csproj.GenerateResource.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.AssemblyInfoInputs.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.AssemblyInfo.cs
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.csproj.CoreCompileInputs.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.dll
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\refint\Es1DataGridView.dll
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.pdb
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\Es1DataGridView.genruntimeconfig.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\Es1DataGridView\obj\Debug\net10.0-windows\ref\Es1DataGridView.dll

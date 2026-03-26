@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\bin\Debug\EsForza4BM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\bin\Debug\EsForza4BM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\bin\Debug\EsForza4BM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BM\EsForza4BM\obj\Debug\EsForza4BM.exe.config

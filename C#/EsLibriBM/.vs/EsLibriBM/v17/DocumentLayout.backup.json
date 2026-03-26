@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\eslibribm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\eslibribm\\eslibribm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\eslibribm\\eslibribm\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\eslibribm\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\eslibribm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\eslibribm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\eslibribm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B6E6503-371D-491D-B096-54B3E31B6BE2}|EsLibriBM\\EsLibriBM.csproj|solutionrelative:eslibribm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,16 +34,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Libro.cs",
               "RelativeDocumentMoniker": "EsLibriBM\\Libro.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Libro.cs",
               "RelativeToolTip": "EsLibriBM\\Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T17:15:42.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T17:15:42.307Z"
             },
             {
               "$type": "Document",
@@ -53,10 +52,9 @@
               "RelativeDocumentMoniker": "EsLibriBM\\Form1.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Form1.cs",
               "RelativeToolTip": "EsLibriBM\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAcwNYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T09:56:00.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T09:56:00.007Z"
             },
             {
               "$type": "Document",
@@ -66,34 +64,32 @@
               "RelativeDocumentMoniker": "EsLibriBM\\Form2.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Form2.cs",
               "RelativeToolTip": "EsLibriBM\\Form2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T16:52:11.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form2.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Form2.cs",
               "RelativeDocumentMoniker": "EsLibriBM\\Form2.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Form2.cs [Progettazione]",
               "RelativeToolTip": "EsLibriBM\\Form2.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:01:36.608Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2026-03-21T10:01:36.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Form1.cs",
               "RelativeDocumentMoniker": "EsLibriBM\\Form1.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsLibriBM\\EsLibriBM\\Form1.cs [Progettazione]",
               "RelativeToolTip": "EsLibriBM\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T09:46:51.096Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2026-03-21T09:46:51.096Z"
             }
           ]
         }
