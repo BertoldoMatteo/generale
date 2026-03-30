@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\bin\Debug\EsForza4BertoldoMatteo.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\bin\Debug\EsForza4BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\bin\Debug\EsForza4BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertoldoMatteo\EsForza4BertoldoMatteo\obj\Debug\EsForza4BertoldoMatteo.exe.config

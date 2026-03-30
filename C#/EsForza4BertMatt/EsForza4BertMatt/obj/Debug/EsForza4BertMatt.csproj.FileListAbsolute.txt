@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\bin\Debug\EsForza4BertMatt.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\bin\Debug\EsForza4BertMatt.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\bin\Debug\EsForza4BertMatt.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsForza4BertMatt\EsForza4BertMatt\obj\Debug\EsForza4BertMatt.exe.config
