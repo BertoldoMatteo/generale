@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\bin\Debug\EsFantasyParkBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\bin\Debug\EsFantasyParkBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\bin\Debug\EsFantasyParkBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.BigliettiForm.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.AttrazioniForm.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsFantasyParkBM\EsFantasyParkBM\obj\Debug\EsFantasyParkBM.GiostreForm.resources
