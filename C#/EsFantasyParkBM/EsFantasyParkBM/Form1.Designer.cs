@@ -36,6 +36,7 @@
             this.btnGiostre = new System.Windows.Forms.Button();
             this.btnAttrazioni = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnMusic = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -154,6 +155,17 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // btnMusic
+            // 
+            this.btnMusic.BackgroundImage = global::EsFantasyParkBM.Properties.Resources.Volume_OFF;
+            this.btnMusic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMusic.Location = new System.Drawing.Point(678, 23);
+            this.btnMusic.Name = "btnMusic";
+            this.btnMusic.Size = new System.Drawing.Size(77, 72);
+            this.btnMusic.TabIndex = 7;
+            this.btnMusic.UseVisualStyleBackColor = true;
+            this.btnMusic.Click += new System.EventHandler(this.btnMusic_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -161,6 +173,7 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMusic);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnAttrazioni);
             this.Controls.Add(this.btnGiostre);
@@ -185,6 +198,7 @@
         private System.Windows.Forms.Button btnGiostre;
         private System.Windows.Forms.Button btnAttrazioni;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnMusic;
     }
 }
 
