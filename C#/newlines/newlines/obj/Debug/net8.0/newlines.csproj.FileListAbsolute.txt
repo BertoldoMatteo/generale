@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\bin\Debug\net8.0\newlines.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\bin\Debug\net8.0\newlines.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\bin\Debug\net8.0\newlines.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\bin\Debug\net8.0\newlines.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\bin\Debug\net8.0\newlines.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\refint\newlines.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\newlines.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\newlines\newlines\obj\Debug\net8.0\ref\newlines.dll

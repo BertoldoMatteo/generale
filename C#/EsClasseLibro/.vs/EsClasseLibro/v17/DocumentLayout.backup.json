@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esclasselibro\\esclasselibro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|solutionrelative:esclasselibro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esclasselibro\\esclasselibro\\autore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|solutionrelative:esclasselibro\\autore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esclasselibro\\esclasselibro\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|solutionrelative:esclasselibro\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esclasselibro\\esclasselibro\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8394876-F4A0-46EE-86CD-BEE3A3E36F66}|EsClasseLibro\\EsClasseLibro.csproj|solutionrelative:esclasselibro\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Libro.cs",
+              "RelativeDocumentMoniker": "EsClasseLibro\\Libro.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Libro.cs",
+              "RelativeToolTip": "EsClasseLibro\\Libro.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:16:33.085Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "EsClasseLibro\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Biblioteca.cs",
+              "RelativeToolTip": "EsClasseLibro\\Biblioteca.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:59:33.853Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Autore.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Autore.cs",
+              "RelativeDocumentMoniker": "EsClasseLibro\\Autore.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Autore.cs",
+              "RelativeToolTip": "EsClasseLibro\\Autore.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:21:21.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Program.cs",
+              "RelativeDocumentMoniker": "EsClasseLibro\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsClasseLibro\\EsClasseLibro\\Program.cs",
+              "RelativeToolTip": "EsClasseLibro\\Program.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwIAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:44:32.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

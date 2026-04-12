@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esfantasyparkbm\\esfantasyparkbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esfantasyparkbm\\esfantasyparkbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\giostreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\giostreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C7005221-3F17-4C3A-9F6C-6BA45865D859}|EsFantasyParkBM\\EsFantasyParkBM.csproj|solutionrelative:esfantasyparkbm\\bigliettiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\Form1.resx",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\Form1.resx",
@@ -62,20 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\Form1.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\Form1.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\Form1.cs",
               "RelativeToolTip": "EsFantasyParkBM\\Form1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswDkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T06:29:58.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\Form1.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\Form1.cs",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\Form1.Designer.cs",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AttrazioniForm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\AttrazioniForm.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\AttrazioniForm.cs",
@@ -108,47 +108,47 @@
               "RelativeToolTip": "EsFantasyParkBM\\AttrazioniForm.cs",
               "ViewState": "AgIAAIgAAAAAAAAAAAAAAKMAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T14:16:53.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T14:16:53.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "BigliettiForm.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\BigliettiForm.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\BigliettiForm.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\BigliettiForm.cs [Progettazione]",
               "RelativeToolTip": "EsFantasyParkBM\\BigliettiForm.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:40:54.163Z"
+              "WhenOpened": "2026-04-02T13:40:54.163Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "BigliettiForm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\BigliettiForm.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\BigliettiForm.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\BigliettiForm.cs",
               "RelativeToolTip": "EsFantasyParkBM\\BigliettiForm.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwKoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAjwNwAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T14:04:54.959Z"
+              "WhenOpened": "2026-04-02T14:04:54.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AttrazioniForm.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\AttrazioniForm.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\AttrazioniForm.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\AttrazioniForm.cs [Progettazione]",
               "RelativeToolTip": "EsFantasyParkBM\\AttrazioniForm.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:31:40.402Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2026-03-31T06:31:40.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GiostreForm.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsFantasyParkBM\\EsFantasyParkBM\\GiostreForm.cs",
               "RelativeDocumentMoniker": "EsFantasyParkBM\\GiostreForm.cs",

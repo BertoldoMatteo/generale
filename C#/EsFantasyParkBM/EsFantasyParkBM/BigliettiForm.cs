@@ -208,7 +208,6 @@ namespace EsFantasyParkBM
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            
             if(lstBiglietti.SelectedIndex != -1)
             {
                 idtemp = int.Parse(lstBiglietti.SelectedItem.ToString().Substring(4, 4));

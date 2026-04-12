@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\bin\Debug\net8.0\EsClasseLibro.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\bin\Debug\net8.0\EsClasseLibro.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\bin\Debug\net8.0\EsClasseLibro.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\bin\Debug\net8.0\EsClasseLibro.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\bin\Debug\net8.0\EsClasseLibro.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\refint\EsClasseLibro.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\EsClasseLibro.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsClasseLibro\EsClasseLibro\obj\Debug\net8.0\ref\EsClasseLibro.dll
