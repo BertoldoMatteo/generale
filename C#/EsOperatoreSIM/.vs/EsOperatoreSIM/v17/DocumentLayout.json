@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esoperatoresim\\esoperatoresim\\formsim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|solutionrelative:esoperatoresim\\formsim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esoperatoresim\\esoperatoresim\\formsim.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|solutionrelative:esoperatoresim\\formsim.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\esoperatoresim\\formsim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|solutionrelative:esoperatoresim\\formsim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\esoperatoresim\\telefonata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|solutionrelative:esoperatoresim\\telefonata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\esoperatoresim\\sim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{160D0F13-95E7-450E-9C44-16DB4AA95004}|EsOperatoreSIM\\EsOperatoreSIM.csproj|solutionrelative:esoperatoresim\\sim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormSIM.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\FormSIM.Designer.cs",
+              "RelativeDocumentMoniker": "EsOperatoreSIM\\FormSIM.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\FormSIM.Designer.cs",
+              "RelativeToolTip": "EsOperatoreSIM\\FormSIM.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T14:04:52.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SIM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\SIM.cs",
+              "RelativeDocumentMoniker": "EsOperatoreSIM\\SIM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\SIM.cs",
+              "RelativeToolTip": "EsOperatoreSIM\\SIM.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:13:08.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Telefonata.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\Telefonata.cs",
+              "RelativeDocumentMoniker": "EsOperatoreSIM\\Telefonata.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\Telefonata.cs",
+              "RelativeToolTip": "EsOperatoreSIM\\Telefonata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:12:32.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormSIM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\FormSIM.cs",
+              "RelativeDocumentMoniker": "EsOperatoreSIM\\FormSIM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\FormSIM.cs",
+              "RelativeToolTip": "EsOperatoreSIM\\FormSIM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:23:28.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormSIM.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\FormSIM.cs",
+              "RelativeDocumentMoniker": "EsOperatoreSIM\\FormSIM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsOperatoreSIM\\EsOperatoreSIM\\FormSIM.cs [Progettazione]",
+              "RelativeToolTip": "EsOperatoreSIM\\FormSIM.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:34:21.928Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

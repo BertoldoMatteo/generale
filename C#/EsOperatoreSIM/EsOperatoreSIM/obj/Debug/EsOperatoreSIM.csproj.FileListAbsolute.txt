@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\bin\Debug\EsOperatoreSIM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\bin\Debug\EsOperatoreSIM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\bin\Debug\EsOperatoreSIM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsOperatoreSIM\EsOperatoreSIM\obj\Debug\EsOperatoreSIM.FormSIM.resources
