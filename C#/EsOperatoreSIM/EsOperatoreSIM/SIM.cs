@@ -13,15 +13,30 @@ namespace EsOperatoreSIM
 
     public class SIM
     {
-        public string NumTel;
-        public double Cred;
+        public string numTel;
+        public double cred;
         private List<Telefonata> listaTelefonate;
-        public SIM(string numTel, double cred) // COSTRUTTORE
+        //public SIM() // COSTRUTTORE DI DEFAULT
+        //{
+            //NumTel = 0;
+            //Cred = 0;
+            //listaTelefonate = new List<Telefonata>();
+        //}
+        public SIM(string NumTel, double Cred) // COSTRUTTORE PARAMETRIZZATO
         {
-            NumTel = numTel;
-            Cred = cred;
+            numTel = NumTel;
+            cred = Cred;
             listaTelefonate = new List<Telefonata>();
         }
+
+        public string NumTel
+        {
+            get
+            {
+                return numTel;
+            }
+        }
+
         public void AggTel(string numDest, int durMin) // AGGIUNGI TELEFONATA
         {
             Telefonata t = new Telefonata(numDest, durMin);
@@ -39,21 +54,17 @@ namespace EsOperatoreSIM
             foreach(Telefonata t in listaTelefonate) if(t.NumDest == numero) count++;
             return count;
         }
-        public List<Telefonata> GetTel() // LISTA TELEFONATE
-        {
-            return listaTelefonate;
-        }
         public string StampaDati() // DATI SIM
         {
             string str = "";
-            str += $"Numero: {NumTel}\n";
-            str += $"Credito: €{Cred}\n";
+            str += $"Numero: {numTel}\n";
+            str += $"Credito: €{cred}\n";
             str += $"Telefonate effettuate: {listaTelefonate.Count}\n";
             str += $"Minuti totali: {CalcMinTot()}\n\n";
             str += "── Elenco Telefonate ──";
             if (listaTelefonate.Count == 0) str += "(nessuna telefonata)";
             else 
-                for (int i = 0; i < listaTelefonate.Count; i++) 
+                for (int i = 0; i < listaTelefonate.Count; i++)
                     str += $"\n{i + 1}. {listaTelefonate[i].Stampa()}";
             return str;
         }

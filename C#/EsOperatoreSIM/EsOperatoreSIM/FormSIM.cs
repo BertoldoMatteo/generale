@@ -1,6 +1,7 @@
 using EsOperatoreSIM;
 using System;
 using System.Drawing;
+using System.Security.Cryptography;
 using System.Windows.Forms;
 
 namespace EsOperatoreSIM
@@ -18,6 +19,11 @@ namespace EsOperatoreSIM
             if (string.IsNullOrEmpty(numero))
             {
                 MessageBox.Show("Inserisci un numero di telefono.", "Errore");
+                return;
+            }
+            if (numero.Length != 10)
+            {
+                MessageBox.Show("Inserisci il numero di telefono di 10 cifre.", "Errore");
                 return;
             }
             if (!double.TryParse(txtCredito.Text, out double credito) || credito < 0)
@@ -42,6 +48,16 @@ namespace EsOperatoreSIM
                 MessageBox.Show("Inserisci il numero destinatario.", "Errore");
                 return;
             }
+            if (dest.Length != 10)
+            {
+                MessageBox.Show("Inserisci il numero destinatario di 10 cifre.", "Errore");
+                return;
+            }
+            if(dest == sim.NumTel)
+            {
+                MessageBox.Show("Numero destinatario uguale al numero SIM.", "Errore");
+                return;
+            }
             if (!int.TryParse(txtDurata.Text, out int durata) || durata <= 0)
             {
                 MessageBox.Show("Inserisci una durata valida (minuti interi > 0).", "Errore");
@@ -62,6 +78,11 @@ namespace EsOperatoreSIM
                 MessageBox.Show("Inserisci un numero da cercare.", "Errore");
                 return;
             }
+            if (numero.Length != 10)
+            {
+                MessageBox.Show("Inserisci un numero da cercare di 10 cifre.", "Errore");
+                return;
+            }
             int count = sim.CalcTelNum(numero);
             Stampa($"Telefonate verso {numero}: {count}\n");
         }
@@ -70,10 +91,7 @@ namespace EsOperatoreSIM
             rtbOutput.Clear();
             Stampa(sim.StampaDati());
         }
-        private void Stampa(string testo)
-        {
-            rtbOutput.AppendText(testo);
-        }
+        private void Stampa(string testo) => rtbOutput.AppendText(testo);
         private void txtNumero_KeyPress(object sender, KeyPressEventArgs e) => NumeroTel(e);
         private void txtDest_KeyPress_1(object sender, KeyPressEventArgs e) => NumeroTel(e);
         private void txtCercaNumero_KeyPress(object sender, KeyPressEventArgs e) => NumeroTel(e);
