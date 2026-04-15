@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\bin\Debug\EsMeteo.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\bin\Debug\EsMeteo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\bin\Debug\EsMeteo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsMeteo\EsMeteo\obj\Debug\EsMeteo.exe.config

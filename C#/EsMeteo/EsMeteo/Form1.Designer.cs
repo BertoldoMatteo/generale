@@ -29,101 +29,192 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.grpID = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grpIgrometro = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtUmidità = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.grpTERMOMETRO = new System.Windows.Forms.GroupBox();
+            this.txtTemp3 = new System.Windows.Forms.TextBox();
+            this.txtTemp2 = new System.Windows.Forms.TextBox();
+            this.txtTemp1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtTemp0 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.grpBAROMETRO = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.txtPressione = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.grpID.SuspendLayout();
+            this.grpPluviometro = new System.Windows.Forms.GroupBox();
+            this.txtPioggia = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.grpAnemometro = new System.Windows.Forms.GroupBox();
+            this.txtVento = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnCreaStaz = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.btnReport = new System.Windows.Forms.Button();
+            this.lstStazioni = new System.Windows.Forms.ListBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.rctInfo = new System.Windows.Forms.RichTextBox();
+            this.grpIgrometro.SuspendLayout();
             this.grpTERMOMETRO.SuspendLayout();
             this.grpBAROMETRO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            this.grpPluviometro.SuspendLayout();
+            this.grpAnemometro.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(286, 20);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(114, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 16);
+            this.label1.Size = new System.Drawing.Size(201, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "STAZIONE METEO";
             // 
-            // grpID
+            // grpIgrometro
             // 
-            this.grpID.Controls.Add(this.label2);
-            this.grpID.Controls.Add(this.txtId);
-            this.grpID.Location = new System.Drawing.Point(41, 51);
-            this.grpID.Name = "grpID";
-            this.grpID.Size = new System.Drawing.Size(200, 68);
-            this.grpID.TabIndex = 2;
-            this.grpID.TabStop = false;
-            this.grpID.Text = "ID";
+            this.grpIgrometro.Controls.Add(this.label11);
+            this.grpIgrometro.Controls.Add(this.txtUmidità);
+            this.grpIgrometro.Controls.Add(this.label10);
+            this.grpIgrometro.Location = new System.Drawing.Point(224, 64);
+            this.grpIgrometro.Name = "grpIgrometro";
+            this.grpIgrometro.Size = new System.Drawing.Size(189, 102);
+            this.grpIgrometro.TabIndex = 3;
+            this.grpIgrometro.TabStop = false;
+            this.grpIgrometro.Text = "IGROMETRO";
             // 
-            // label2
+            // label11
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 27);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(23, 16);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "ID:";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(8, 60);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(42, 18);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "12:00";
             // 
-            // txtId
+            // txtUmidità
             // 
-            this.txtId.Location = new System.Drawing.Point(45, 27);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(131, 22);
-            this.txtId.TabIndex = 7;
+            this.txtUmidità.Location = new System.Drawing.Point(52, 56);
+            this.txtUmidità.Name = "txtUmidità";
+            this.txtUmidità.Size = new System.Drawing.Size(131, 26);
+            this.txtUmidità.TabIndex = 12;
+            this.txtUmidità.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUmidità_KeyPress);
             // 
-            // groupBox2
+            // label10
             // 
-            this.groupBox2.Location = new System.Drawing.Point(473, 181);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 100);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(47, 35);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(100, 18);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "UMIDITA\' (%)";
             // 
             // grpTERMOMETRO
             // 
-            this.grpTERMOMETRO.Controls.Add(this.textBox4);
-            this.grpTERMOMETRO.Controls.Add(this.textBox3);
-            this.grpTERMOMETRO.Controls.Add(this.textBox2);
+            this.grpTERMOMETRO.Controls.Add(this.txtTemp3);
+            this.grpTERMOMETRO.Controls.Add(this.txtTemp2);
+            this.grpTERMOMETRO.Controls.Add(this.txtTemp1);
             this.grpTERMOMETRO.Controls.Add(this.label8);
             this.grpTERMOMETRO.Controls.Add(this.label7);
             this.grpTERMOMETRO.Controls.Add(this.label6);
             this.grpTERMOMETRO.Controls.Add(this.label5);
-            this.grpTERMOMETRO.Controls.Add(this.textBox1);
+            this.grpTERMOMETRO.Controls.Add(this.txtTemp0);
             this.grpTERMOMETRO.Controls.Add(this.label4);
-            this.grpTERMOMETRO.Location = new System.Drawing.Point(41, 209);
+            this.grpTERMOMETRO.Location = new System.Drawing.Point(12, 172);
             this.grpTERMOMETRO.Name = "grpTERMOMETRO";
-            this.grpTERMOMETRO.Size = new System.Drawing.Size(200, 156);
+            this.grpTERMOMETRO.Size = new System.Drawing.Size(203, 176);
             this.grpTERMOMETRO.TabIndex = 4;
             this.grpTERMOMETRO.TabStop = false;
             this.grpTERMOMETRO.Text = "TERMOMETRO";
             // 
+            // txtTemp3
+            // 
+            this.txtTemp3.Location = new System.Drawing.Point(50, 142);
+            this.txtTemp3.Name = "txtTemp3";
+            this.txtTemp3.Size = new System.Drawing.Size(131, 26);
+            this.txtTemp3.TabIndex = 17;
+            this.txtTemp3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTemp3_KeyPress);
+            // 
+            // txtTemp2
+            // 
+            this.txtTemp2.Location = new System.Drawing.Point(49, 110);
+            this.txtTemp2.Name = "txtTemp2";
+            this.txtTemp2.Size = new System.Drawing.Size(131, 26);
+            this.txtTemp2.TabIndex = 16;
+            this.txtTemp2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTemp2_KeyPress);
+            // 
+            // txtTemp1
+            // 
+            this.txtTemp1.Location = new System.Drawing.Point(50, 79);
+            this.txtTemp1.Name = "txtTemp1";
+            this.txtTemp1.Size = new System.Drawing.Size(131, 26);
+            this.txtTemp1.TabIndex = 15;
+            this.txtTemp1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTemp1_KeyPress);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(5, 145);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(42, 18);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "18:00";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 114);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 18);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "12:00";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 82);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 18);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "06:00";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(5, 51);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 18);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "00:00";
+            // 
+            // txtTemp0
+            // 
+            this.txtTemp0.Location = new System.Drawing.Point(49, 47);
+            this.txtTemp0.Name = "txtTemp0";
+            this.txtTemp0.Size = new System.Drawing.Size(131, 26);
+            this.txtTemp0.TabIndex = 10;
+            this.txtTemp0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTemp0_KeyPress);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(41, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(131, 18);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "TEMPERATURA (°C)";
+            // 
             // grpBAROMETRO
             // 
             this.grpBAROMETRO.Controls.Add(this.label3);
-            this.grpBAROMETRO.Location = new System.Drawing.Point(41, 125);
+            this.grpBAROMETRO.Controls.Add(this.txtPressione);
+            this.grpBAROMETRO.Location = new System.Drawing.Point(15, 64);
             this.grpBAROMETRO.Name = "grpBAROMETRO";
-            this.grpBAROMETRO.Size = new System.Drawing.Size(289, 78);
+            this.grpBAROMETRO.Size = new System.Drawing.Size(203, 102);
             this.grpBAROMETRO.TabIndex = 5;
             this.grpBAROMETRO.TabStop = false;
             this.grpBAROMETRO.Text = "BAROMETRO";
@@ -131,137 +222,165 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 39);
+            this.label3.Location = new System.Drawing.Point(38, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 16);
+            this.label3.Size = new System.Drawing.Size(119, 18);
             this.label3.TabIndex = 8;
             this.label3.Text = "PRESSIONE (hPa)";
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Location = new System.Drawing.Point(473, 75);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(200, 100);
-            this.groupBox5.TabIndex = 6;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "groupBox5";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Location = new System.Drawing.Point(250, 297);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(200, 100);
-            this.groupBox6.TabIndex = 6;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "groupBox6";
-            // 
-            // fileSystemWatcher1
-            // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
-            // 
             // txtPressione
             // 
-            this.txtPressione.Location = new System.Drawing.Point(187, 164);
+            this.txtPressione.Location = new System.Drawing.Point(28, 46);
             this.txtPressione.Name = "txtPressione";
-            this.txtPressione.Size = new System.Drawing.Size(131, 22);
+            this.txtPressione.Size = new System.Drawing.Size(144, 26);
             this.txtPressione.TabIndex = 9;
+            this.txtPressione.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPressione_KeyPress);
             // 
-            // label4
+            // grpPluviometro
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 16);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "TEMPERATURA (°C)";
+            this.grpPluviometro.Controls.Add(this.txtPioggia);
+            this.grpPluviometro.Controls.Add(this.label9);
+            this.grpPluviometro.Location = new System.Drawing.Point(12, 354);
+            this.grpPluviometro.Name = "grpPluviometro";
+            this.grpPluviometro.Size = new System.Drawing.Size(203, 83);
+            this.grpPluviometro.TabIndex = 6;
+            this.grpPluviometro.TabStop = false;
+            this.grpPluviometro.Text = "PLUVIOMETRO";
             // 
-            // textBox1
+            // txtPioggia
             // 
-            this.textBox1.Location = new System.Drawing.Point(49, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 22);
-            this.textBox1.TabIndex = 10;
+            this.txtPioggia.Location = new System.Drawing.Point(34, 50);
+            this.txtPioggia.Name = "txtPioggia";
+            this.txtPioggia.Size = new System.Drawing.Size(131, 26);
+            this.txtPioggia.TabIndex = 10;
+            this.txtPioggia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPioggia_KeyPress);
             // 
-            // label5
+            // label9
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 45);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 16);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "00:00";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(49, 29);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(98, 18);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "PIOGGIA (mm)";
             // 
-            // label6
+            // grpAnemometro
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 73);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 16);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "06:00";
+            this.grpAnemometro.Controls.Add(this.txtVento);
+            this.grpAnemometro.Controls.Add(this.label12);
+            this.grpAnemometro.Location = new System.Drawing.Point(224, 172);
+            this.grpAnemometro.Name = "grpAnemometro";
+            this.grpAnemometro.Size = new System.Drawing.Size(189, 92);
+            this.grpAnemometro.TabIndex = 6;
+            this.grpAnemometro.TabStop = false;
+            this.grpAnemometro.Text = "ANEMOMETRO";
             // 
-            // label7
+            // txtVento
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 101);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 16);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "12:00";
+            this.txtVento.Location = new System.Drawing.Point(34, 54);
+            this.txtVento.Name = "txtVento";
+            this.txtVento.Size = new System.Drawing.Size(131, 26);
+            this.txtVento.TabIndex = 12;
+            this.txtVento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVento_KeyPress);
             // 
-            // label8
+            // label12
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(5, 129);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 16);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "18:00";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(49, 29);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(98, 18);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "VENTO (Km/h)";
             // 
-            // textBox2
+            // btnCreaStaz
             // 
-            this.textBox2.Location = new System.Drawing.Point(50, 70);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(131, 22);
-            this.textBox2.TabIndex = 15;
+            this.btnCreaStaz.Location = new System.Drawing.Point(430, 28);
+            this.btnCreaStaz.Name = "btnCreaStaz";
+            this.btnCreaStaz.Size = new System.Drawing.Size(125, 56);
+            this.btnCreaStaz.TabIndex = 8;
+            this.btnCreaStaz.Text = "CREA STAZIONE";
+            this.btnCreaStaz.UseVisualStyleBackColor = true;
+            this.btnCreaStaz.Click += new System.EventHandler(this.btnCreaStaz_Click);
             // 
-            // textBox3
+            // btnReset
             // 
-            this.textBox3.Location = new System.Drawing.Point(49, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(131, 22);
-            this.textBox3.TabIndex = 16;
+            this.btnReset.Location = new System.Drawing.Point(561, 28);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(106, 57);
+            this.btnReset.TabIndex = 9;
+            this.btnReset.Text = "RESET";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // textBox4
+            // btnReport
             // 
-            this.textBox4.Location = new System.Drawing.Point(50, 126);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(131, 22);
-            this.textBox4.TabIndex = 17;
+            this.btnReport.Location = new System.Drawing.Point(673, 28);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(109, 57);
+            this.btnReport.TabIndex = 10;
+            this.btnReport.Text = "REPORT";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
+            // 
+            // lstStazioni
+            // 
+            this.lstStazioni.FormattingEnabled = true;
+            this.lstStazioni.ItemHeight = 18;
+            this.lstStazioni.Location = new System.Drawing.Point(430, 87);
+            this.lstStazioni.Name = "lstStazioni";
+            this.lstStazioni.Size = new System.Drawing.Size(352, 400);
+            this.lstStazioni.TabIndex = 11;
+            this.lstStazioni.SelectedIndexChanged += new System.EventHandler(this.lstStazioni_SelectedIndexChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(230, 275);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(180, 28);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "INFORMAZIONI";
+            // 
+            // rctInfo
+            // 
+            this.rctInfo.Location = new System.Drawing.Point(224, 306);
+            this.rctInfo.Name = "rctInfo";
+            this.rctInfo.Size = new System.Drawing.Size(189, 186);
+            this.rctInfo.TabIndex = 13;
+            this.rctInfo.Text = "";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.txtPressione);
-            this.Controls.Add(this.groupBox5);
+            this.ClientSize = new System.Drawing.Size(800, 506);
+            this.Controls.Add(this.rctInfo);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lstStazioni);
+            this.Controls.Add(this.btnReport);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnCreaStaz);
+            this.Controls.Add(this.grpAnemometro);
+            this.Controls.Add(this.grpPluviometro);
             this.Controls.Add(this.grpBAROMETRO);
             this.Controls.Add(this.grpTERMOMETRO);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.grpID);
+            this.Controls.Add(this.grpIgrometro);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Text = "Form1";
-            this.grpID.ResumeLayout(false);
-            this.grpID.PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.grpIgrometro.ResumeLayout(false);
+            this.grpIgrometro.PerformLayout();
             this.grpTERMOMETRO.ResumeLayout(false);
             this.grpTERMOMETRO.PerformLayout();
             this.grpBAROMETRO.ResumeLayout(false);
             this.grpBAROMETRO.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.grpPluviometro.ResumeLayout(false);
+            this.grpPluviometro.PerformLayout();
+            this.grpAnemometro.ResumeLayout(false);
+            this.grpAnemometro.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,26 +389,35 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox grpID;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grpIgrometro;
         private System.Windows.Forms.GroupBox grpTERMOMETRO;
         private System.Windows.Forms.GroupBox grpBAROMETRO;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.IO.FileSystemWatcher fileSystemWatcher1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.GroupBox grpPluviometro;
+        private System.Windows.Forms.GroupBox grpAnemometro;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPressione;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTemp0;
+        private System.Windows.Forms.TextBox txtTemp3;
+        private System.Windows.Forms.TextBox txtTemp2;
+        private System.Windows.Forms.TextBox txtTemp1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtPioggia;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtUmidità;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtVento;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnReport;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnCreaStaz;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ListBox lstStazioni;
+        private System.Windows.Forms.RichTextBox rctInfo;
     }
 }
 
