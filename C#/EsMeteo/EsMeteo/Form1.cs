@@ -56,9 +56,6 @@ namespace EsMeteo
         {
             ID = riga[0];
             double.TryParse(riga[1], out press);
-
-            temp = new double[4];
-
             double.TryParse(riga[2], out temp[0]);
             double.TryParse(riga[3], out temp[1]);
             double.TryParse(riga[4], out temp[2]);
@@ -85,9 +82,6 @@ namespace EsMeteo
         {
             err = "";
             Lettura(txtPressione, ref press, "PRESSIONE");
-
-            temp = new double[4];
-
             Lettura(txtTemp0, ref temp[0], "TEMPERATURA (00:00)");
             Lettura(txtTemp1, ref temp[1], "TEMPERATURA (06:00)");
             Lettura(txtTemp2, ref temp[2], "TEMPERATURA (12:00)");

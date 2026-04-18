@@ -29,7 +29,7 @@ namespace EsMeteo
         {
             this.id = id;
             this.press = press;
-            this.temp = temp;
+            this.temp = (double[])temp.Clone();
             this.pioggia = pioggia;
             this.umid = umid;
             this.vento = vento;
