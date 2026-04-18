@@ -66,17 +66,17 @@ namespace EsMeteo
         }
         private void btnCreaStaz_Click(object sender, EventArgs e)
         {
-            LetturaGen();
             ID = count.ToString();
             count++;
-            if (err.Length > 0) MessageBox.Show(err, "ERRORE");
-            if (err == "")
-            {
-                StazioneMeteo stazMet = new StazioneMeteo(ID, press, temp, piogg, umid, vento);
-                lstStazmet.Add(stazMet);
-                Lista(stazMet);
-                Info(stazMet);
-            }
+            press = 0;
+            temp = new double [4];
+            piogg = 0;
+            umid = 0;
+            vento = 0;
+            StazioneMeteo stazMet = new StazioneMeteo(ID, press, temp, piogg, umid, vento);
+            lstStazmet.Add(stazMet);
+            Lista(stazMet);
+            Info(stazMet);
         }
         private void LetturaGen()
         {
