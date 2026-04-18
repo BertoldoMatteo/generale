@@ -58,11 +58,14 @@
             this.lstStazioni = new System.Windows.Forms.ListBox();
             this.label13 = new System.Windows.Forms.Label();
             this.rctInfo = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pctImg = new System.Windows.Forms.PictureBox();
             this.grpIgrometro.SuspendLayout();
             this.grpTERMOMETRO.SuspendLayout();
             this.grpBAROMETRO.SuspendLayout();
             this.grpPluviometro.SuspendLayout();
             this.grpAnemometro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctImg)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -77,6 +80,7 @@
             // 
             // grpIgrometro
             // 
+            this.grpIgrometro.BackColor = System.Drawing.Color.IndianRed;
             this.grpIgrometro.Controls.Add(this.label11);
             this.grpIgrometro.Controls.Add(this.txtUmidità);
             this.grpIgrometro.Controls.Add(this.label10);
@@ -115,6 +119,7 @@
             // 
             // grpTERMOMETRO
             // 
+            this.grpTERMOMETRO.BackColor = System.Drawing.Color.IndianRed;
             this.grpTERMOMETRO.Controls.Add(this.txtTemp3);
             this.grpTERMOMETRO.Controls.Add(this.txtTemp2);
             this.grpTERMOMETRO.Controls.Add(this.txtTemp1);
@@ -210,6 +215,7 @@
             // 
             // grpBAROMETRO
             // 
+            this.grpBAROMETRO.BackColor = System.Drawing.Color.IndianRed;
             this.grpBAROMETRO.Controls.Add(this.label3);
             this.grpBAROMETRO.Controls.Add(this.txtPressione);
             this.grpBAROMETRO.Location = new System.Drawing.Point(15, 64);
@@ -238,6 +244,7 @@
             // 
             // grpPluviometro
             // 
+            this.grpPluviometro.BackColor = System.Drawing.Color.IndianRed;
             this.grpPluviometro.Controls.Add(this.txtPioggia);
             this.grpPluviometro.Controls.Add(this.label9);
             this.grpPluviometro.Location = new System.Drawing.Point(12, 354);
@@ -266,6 +273,7 @@
             // 
             // grpAnemometro
             // 
+            this.grpAnemometro.BackColor = System.Drawing.Color.IndianRed;
             this.grpAnemometro.Controls.Add(this.txtVento);
             this.grpAnemometro.Controls.Add(this.label12);
             this.grpAnemometro.Location = new System.Drawing.Point(224, 172);
@@ -294,32 +302,35 @@
             // 
             // btnCreaStaz
             // 
+            this.btnCreaStaz.BackColor = System.Drawing.Color.IndianRed;
             this.btnCreaStaz.Location = new System.Drawing.Point(430, 28);
             this.btnCreaStaz.Name = "btnCreaStaz";
             this.btnCreaStaz.Size = new System.Drawing.Size(125, 56);
             this.btnCreaStaz.TabIndex = 8;
             this.btnCreaStaz.Text = "CREA STAZIONE";
-            this.btnCreaStaz.UseVisualStyleBackColor = true;
+            this.btnCreaStaz.UseVisualStyleBackColor = false;
             this.btnCreaStaz.Click += new System.EventHandler(this.btnCreaStaz_Click);
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.Color.IndianRed;
             this.btnReset.Location = new System.Drawing.Point(561, 28);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(106, 57);
             this.btnReset.TabIndex = 9;
             this.btnReset.Text = "RESET";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnReport
             // 
+            this.btnReport.BackColor = System.Drawing.Color.IndianRed;
             this.btnReport.Location = new System.Drawing.Point(673, 28);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(109, 57);
             this.btnReport.TabIndex = 10;
             this.btnReport.Text = "REPORT";
-            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.UseVisualStyleBackColor = false;
             this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // lstStazioni
@@ -348,13 +359,35 @@
             this.rctInfo.Name = "rctInfo";
             this.rctInfo.Size = new System.Drawing.Size(189, 186);
             this.rctInfo.TabIndex = 13;
-            this.rctInfo.Text = "";
+            this.rctInfo.Text = "  ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(5, 453);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(143, 39);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "PIOGGIA";
+            // 
+            // pctImg
+            // 
+            this.pctImg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pctImg.Location = new System.Drawing.Point(154, 453);
+            this.pctImg.Name = "pctImg";
+            this.pctImg.Size = new System.Drawing.Size(48, 41);
+            this.pctImg.TabIndex = 17;
+            this.pctImg.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(800, 506);
+            this.Controls.Add(this.pctImg);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.rctInfo);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.lstStazioni);
@@ -381,6 +414,7 @@
             this.grpPluviometro.PerformLayout();
             this.grpAnemometro.ResumeLayout(false);
             this.grpAnemometro.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -418,6 +452,8 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ListBox lstStazioni;
         private System.Windows.Forms.RichTextBox rctInfo;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pctImg;
     }
 }
 

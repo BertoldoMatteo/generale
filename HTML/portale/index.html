@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portale — Esercizi HTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-deep: #080b10;
+      --bg-elevated: #0f131a;
+      --surface: rgba(22, 28, 38, 0.72);
+      --surface-solid: #161c26;
+      --border: rgba(120, 144, 182, 0.18);
+      --border-strong: rgba(120, 144, 182, 0.35);
+      --text: #eef2f8;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.14);
+      --accent-glow: rgba(56, 189, 248, 0.35);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-sm: 10px;
+      --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.35);
+      --font: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font);
+      font-optical-sizing: auto;
+      background: var(--bg-deep);
+      color: var(--text);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .bg-decor {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(56, 189, 248, 0.15), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 0%, rgba(167, 139, 250, 0.08), transparent),
+        radial-gradient(ellipse 50% 30% at 0% 100%, rgba(34, 211, 238, 0.06), transparent);
+    }
+    .bg-decor::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath fill='%23ffffff' fill-opacity='0.02' d='M0 32V0h32'/%3E%3C/svg%3E");
+      opacity: 0.9;
+    }
+    .layout {
+      position: relative;
+      z-index: 1;
+      max-width: 52rem;
+      margin: 0 auto;
+      padding: 0 1.25rem 3.5rem;
+    }
+    @media (min-width: 640px) {
+      .layout { padding-left: 1.75rem; padding-right: 1.75rem; }
+    }
+    header {
+      padding: 2.25rem 0 1.5rem;
+    }
+    .header-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 999px;
+    }
+    .badge svg { flex-shrink: 0; opacity: 0.9; }
+    h1 {
+      font-size: clamp(1.65rem, 4vw, 2.15rem);
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      background: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .intro {
+      margin: 0;
+      padding: 1rem 1.15rem;
+      font-size: 0.92rem;
+      color: var(--muted);
+      background: var(--surface);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      border-left: 3px solid var(--accent);
+      box-shadow: var(--shadow-card);
+    }
+    .intro strong { color: #e2e8f0; font-weight: 600; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      align-items: center;
+      margin-bottom: 1.35rem;
+    }
+    .search-wrap {
+      flex: 1;
+      min-width: min(100%, 14rem);
+      position: relative;
+    }
+    .search-wrap svg {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1.1rem;
+      height: 1.1rem;
+      color: var(--muted);
+      pointer-events: none;
+    }
+    #search {
+      width: 100%;
+      padding: 0.8rem 1rem 0.8rem 2.75rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--surface-solid);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 1rem;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+    #search::placeholder { color: var(--muted); opacity: 0.85; }
+    #search:hover {
+      border-color: var(--border-strong);
+      background: #1a2130;
+    }
+    #search:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    }
+    .count {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem 0.85rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--muted);
+      background: rgba(15, 19, 26, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .count strong {
+      color: var(--text);
+      font-weight: 600;
+      margin: 0 0.15rem;
+    }
+    main { padding-bottom: 1rem; }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    li a {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.2rem;
+      padding: 1rem 1.15rem 1rem 1.25rem;
+      background: var(--surface);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      color: var(--text);
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease, border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+    li a::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(180deg, var(--accent), #818cf8);
+      opacity: 0;
+      transform: scaleY(0.6);
+      transition: opacity 0.2s, transform 0.2s;
+      border-radius: 0 2px 2px 0;
+    }
+    li a:hover {
+      border-color: rgba(56, 189, 248, 0.35);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(56, 189, 248, 0.08);
+      background: rgba(26, 33, 48, 0.95);
+    }
+    li a:hover::before {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+    li a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+    li a .title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      gap: 0.75rem;
+    }
+    li a .title-text {
+      font-weight: 600;
+      font-size: 0.98rem;
+      letter-spacing: -0.01em;
+    }
+    li a .arrow {
+      flex-shrink: 0;
+      width: 1.25rem;
+      height: 1.25rem;
+      color: var(--muted);
+      opacity: 0;
+      transform: translateX(-4px);
+      transition: opacity 0.2s, transform 0.2s, color 0.2s;
+    }
+    li a:hover .arrow {
+      opacity: 1;
+      transform: translateX(0);
+      color: var(--accent);
+    }
+    .path {
+      font-size: 0.78rem;
+      color: var(--muted);
+      word-break: break-all;
+      line-height: 1.45;
+      font-family: ui-monospace, "Cascadia Code", "Consolas", monospace;
+      opacity: 0.92;
+    }
+    .empty {
+      margin: 2rem 0 0;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+      background: var(--surface);
+      border: 1px dashed var(--border-strong);
+      border-radius: var(--radius-md);
+    }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      li a, li a::before, li a .arrow { transition: none; }
+      li a:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true"></div>
+  <div class="layout">
+    <header>
+      <div class="header-top">
+        <h1>Portale esercizi HTML</h1>
+        <span class="badge" title="Cartella del portale">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+          </svg>
+          HTML/portale
+        </span>
+      </div>
+      <p class="intro">Questo progetto sta solo in <strong>HTML/portale/</strong> e non modifica gli altri file. Collegamenti alla cartella padre <strong>HTML</strong>. Apri <strong>index.html</strong> qui con doppio clic.</p>
+    </header>
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <label for="search" class="visually-hidden">Cerca</label>
+        <input type="search" id="search" placeholder="Cerca per nome o percorso…" autocomplete="off" aria-label="Filtra elenco">
+      </div>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+    <main>
+      <ul id="list"></ul>
+      <p class="empty" id="empty" hidden>Nessun risultato per questa ricerca.</p>
+    </main>
+  </div>
+  <script>
+    /* Percorsi relativi alla cartella HTML (un livello sopra questa pagina). */
+    var pages = [
+      { label: "EsMapTurni1 — Bertoldo Matteo", href: "../EsMapTurni1_BertoldoMatteo/Index.html" },
+      { label: "EsFor1 — Bertoldo Matteo", href: "../EsFor1_BertoldoMatteo/Index.html" },
+      { label: "Codice fiscale", href: "../CODICE_FISCALE_BERTOLDO_MATTEO/Index.html" },
+      { label: "Tombola", href: "../ES_TOMBOLA_BERTOLDO/Index.html" },
+      { label: "Tris", href: "../ES_TRIS_BERTOLDO (1)/ES_TRIS_BERTOLDO/Index.html" },
+      { label: "Memory (matrice)", href: "../ES_MEMORY_BERTOLDO_matrice/Index.html" },
+      { label: "Media somma ripetuta", href: "../ES_MediaSommaRip_BERTOLDO/Index.html" },
+      { label: "Matrice — ES 2", href: "../ES_MATRICE_BERTOLDO/ES_2_BERTOLDO/Index.html" },
+      { label: "Matrice — ES 1", href: "../ES_MATRICE_BERTOLDO/ES_1_BERTOLDO/Index.html" },
+      { label: "Memory", href: "../ES_MEMORY_BERTOLDO_MATTEO/Index.html" },
+      { label: "Libro — ES 17 pag. 259", href: "../ES_LIBRO_BERTOLDO_MATTEO/ES_17_PAG_259_BERTOLDO/index.html" },
+      { label: "Libro — ES 14 pag. 259", href: "../ES_LIBRO_BERTOLDO_MATTEO/ES_14_PAG_259_BERTOLDO/Index.html" },
+      { label: "Libro — ES 16 pag. 259 (Code)", href: "../ES_LIBRO_BERTOLDO_MATTEO/ES_16_PAG_259_BERTOLDO/Code/Index.html" },
+      { label: "Array — ES 4", href: "../ES_ARRAY_BERTOLDO_MATTEO/ES_4_ARRAY_BERTOLDO_MATTEO/Index.html" },
+      { label: "Array — ES 2", href: "../ES_ARRAY_BERTOLDO_MATTEO/ES_2_ARRAY_BERTOLDO_MATTEO/Index.html" },
+      { label: "Array — ES 1", href: "../ES_ARRAY_BERTOLDO_MATTEO/ES_1_ARRAY_BERTOLDO_MATTEO/Index.html" },
+      { label: "Array — ES 3", href: "../ES_ARRAY_BERTOLDO_MATTEO/ES_3_ARRAY_BERTOLDO_MATTEO/Index.html" },
+      { label: "Cicli — Terra", href: "../ES_1_CICLI_BERTOLDO_MATTEO/ES_5_TERRA_BERTOLDO_MATTEO/Index.html" },
+      { label: "Cicli — Cifrario di Cesare", href: "../ES_1_CICLI_BERTOLDO_MATTEO/ES_4_CIFRARIO_CESARE_BERTOLDO_MATTEO/Index.html" },
+      { label: "Cicli — Triangolo numeri magici", href: "../ES_1_CICLI_BERTOLDO_MATTEO/ES_3_TRIANGOLO_NUMERI_MAGICI_BERTOLDO_MATTEO/Index.html" },
+      { label: "Cicli — Stelle", href: "../ES_1_CICLI_BERTOLDO_MATTEO/ES_2_STELLE_BERTOLDO_MATTEO/Index.html" },
+      { label: "Cicli — Scacchiera magica", href: "../ES_1_CICLI_BERTOLDO_MATTEO/ES_1_SCACCHIERAMAGICA_BERTOLDO_MATTEO/Index.html" },
+      { label: "Cicli — Tabella colori", href: "../ES_1_CICLI_BERTOLDO_MATTEO/ES_1_TABELLACOLORI_BERTOLDO_MATTEO/Index.html" },
+      { label: "Iterazione — ES 10", href: "../ES_9-10_ITERAZIONE_BERTOLDO_MATTEO/ES_10_BERTOLDO_MATTEO/Index.html" },
+      { label: "Iterazione — ES 9", href: "../ES_9-10_ITERAZIONE_BERTOLDO_MATTEO/ES_9_BERTOLDO_MATTEO/Index.html" },
+      { label: "Selezione — Hotel", href: "../SELEZIONE/SELEZIONE2/Hotel/Index.html" },
+      { label: "Selezione — Parcheggio 2", href: "../SELEZIONE/SELEZIONE2/Parcheggio2/Index.html" },
+      { label: "Selezione — Parcheggio", href: "../SELEZIONE/SELEZIONE2/Parcheggio/Index.html" },
+      { label: "Selezione — Palestra", href: "../SELEZIONE/SELEZIONE2/Palestra/Index.html" },
+      { label: "Selezione — Lorda", href: "../SELEZIONE/SELEZIONE2/Lorda/Index.html" },
+      { label: "ES 6.11.25 — Recensione", href: "../ES_6_11_25/Recensione/Index.html" },
+      { label: "ES 6.11.25 — Galleria immagini", href: "../ES_6_11_25/GalleriaImmagini/Index.html" },
+      { label: "Articolo di giornale", href: "../Articolo_di_giornale/Index.html" },
+      { label: "Calcolatrice", href: "../ES_CALCOLATRICE_BERTOLDO_MATTEO/Index.html" },
+      { label: "Selezione 29-10-25 — Analisi numeri", href: "../ES_1_SELEZIONE_29-10-25/ES_1.1_BERTOLDO_MATTEO/AnalisiNumeri.html" },
+      { label: "Selezione 29-10-25 — ES 1.2", href: "../ES_1_SELEZIONE_29-10-25/ES_1.2_BERTOLDO_MATTEO/Index.html" },
+      { label: "Selezione 29-10-25 — ES 1.3", href: "../ES_1_SELEZIONE_29-10-25/ES_1.3_BERTOLDO_MATTEO/Index.html" },
+      { label: "Wiki 22-10-25 — Storia", href: "../ESERCIZIO_WIKI_22_10_25/Pages/IndexStoria.html" },
+      { label: "Wiki 22-10-25 — Chi siamo", href: "../ESERCIZIO_WIKI_22_10_25/Pages/IndexChi.html" },
+      { label: "Wiki 22-10-25 — Allenamenti", href: "../ESERCIZIO_WIKI_22_10_25/Pages/IndexAllenamenti.html" },
+      { label: "Wiki 22-10-25 — Home", href: "../ESERCIZIO_WIKI_22_10_25/Index.html" },
+      { label: "Esercizio 2", href: "../ESERCIZIO_2_BERTOLDO_MATTEO/Index.html" },
+      { label: "Esercizio 1", href: "../ESERCIZIO_1_BERTOLDO_MATTEO/Index.html" },
+      { label: "ES 1 JavaScript", href: "../ES_1_js/Index.html" },
+      { label: "Wiki 7-10 — Storia", href: "../WIKI/ESERCIZIO_WIKI_7-10/Index_storia.html" },
+      { label: "ES 1 Sport", href: "../ES_1_SPORT/ES_1_SPORT_BEROLDO_MATTEO.html" }
+    ];
+
+    var listEl = document.getElementById("list");
+    var searchEl = document.getElementById("search");
+    var countEl = document.getElementById("count");
+    var emptyEl = document.getElementById("empty");
+
+    function normalize(s) {
+      return (s || "").toLowerCase();
+    }
+
+    function render(filter) {
+      var q = normalize(filter.trim());
+      listEl.innerHTML = "";
+      var shown = 0;
+      for (var i = 0; i < pages.length; i++) {
+        var p = pages[i];
+        var hay = normalize(p.label + " " + p.href);
+        if (q && hay.indexOf(q) === -1) continue;
+        shown++;
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = encodeURI(p.href);
+        var row = document.createElement("span");
+        row.className = "title-row";
+        var title = document.createElement("span");
+        title.className = "title-text";
+        title.textContent = p.label;
+        var arrow = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        arrow.setAttribute("class", "arrow");
+        arrow.setAttribute("viewBox", "0 0 24 24");
+        arrow.setAttribute("fill", "none");
+        arrow.setAttribute("stroke", "currentColor");
+        arrow.setAttribute("stroke-width", "2");
+        arrow.setAttribute("aria-hidden", "true");
+        var path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        path.setAttribute("stroke-linecap", "round");
+        path.setAttribute("stroke-linejoin", "round");
+        path.setAttribute("d", "M9 18l6-6-6-6");
+        arrow.appendChild(path);
+        row.appendChild(title);
+        row.appendChild(arrow);
+        var pathSpan = document.createElement("span");
+        pathSpan.className = "path";
+        pathSpan.textContent = p.href;
+        a.appendChild(row);
+        a.appendChild(pathSpan);
+        li.appendChild(a);
+        listEl.appendChild(li);
+      }
+      countEl.innerHTML = "<strong>" + shown + "</strong> di <strong>" + pages.length + "</strong> pagine";
+      emptyEl.hidden = shown > 0;
+    }
+
+    searchEl.addEventListener("input", function () {
+      render(searchEl.value);
+    });
+
+    render("");
+  </script>
+</body>
+</html>

@@ -12,6 +12,7 @@ using System.Windows.Forms;
 
 namespace EsMeteo
 {
+    
     public partial class Form1 : Form
     {
         private int count;
@@ -55,6 +56,9 @@ namespace EsMeteo
         {
             ID = riga[0];
             double.TryParse(riga[1], out press);
+
+            temp = new double[4];
+
             double.TryParse(riga[2], out temp[0]);
             double.TryParse(riga[3], out temp[1]);
             double.TryParse(riga[4], out temp[2]);
@@ -81,6 +85,9 @@ namespace EsMeteo
         {
             err = "";
             Lettura(txtPressione, ref press, "PRESSIONE");
+
+            temp = new double[4];
+
             Lettura(txtTemp0, ref temp[0], "TEMPERATURA (00:00)");
             Lettura(txtTemp1, ref temp[1], "TEMPERATURA (06:00)");
             Lettura(txtTemp2, ref temp[2], "TEMPERATURA (12:00)");
@@ -117,6 +124,7 @@ namespace EsMeteo
             }
             Info(lstStazmet[id]);
             CaricaDati(lstStazmet[id]);
+            pctImg.BackgroundImage = lstStazmet[id].Pioggia() ? Image.FromFile("pioggia.jpg") : Image.FromFile("sole.jpg");
         }
         private void CaricaDati(StazioneMeteo StazMet1)
         {
@@ -159,12 +167,6 @@ namespace EsMeteo
         private void Form1_Load(object sender, EventArgs e)
         {
             LeggiFile();
-        }
-
-        private void btnModify_Click(object sender, EventArgs e)
-        {
-            
-
         }
 
         private void Numero(KeyPressEventArgs e)

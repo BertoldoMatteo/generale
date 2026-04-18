@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\EsRobotBM"
+    "\\ConsoleApp1",
+    "\\ConsoleApp1\\ConsoleApp1",
+    "\\EsRobotBM",
+    "\\PreVerifica"
   ],
-  "SelectedNode": "\\EsRobotBM\\EsRobotBM.sln",
+  "SelectedNode": "\\ConsoleApp1\\ConsoleApp1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
