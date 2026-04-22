@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EsCatch1BM/1.0.0": {
+        "runtime": {
+          "EsCatch1BM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EsCatch1BM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

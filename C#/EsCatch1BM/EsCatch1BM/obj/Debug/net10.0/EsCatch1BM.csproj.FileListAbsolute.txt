@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\bin\Debug\net10.0\EsCatch1BM.exe
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\bin\Debug\net10.0\EsCatch1BM.deps.json
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\bin\Debug\net10.0\EsCatch1BM.runtimeconfig.json
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\bin\Debug\net10.0\EsCatch1BM.dll
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\bin\Debug\net10.0\EsCatch1BM.pdb
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.dll
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\refint\EsCatch1BM.dll
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.pdb
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\EsCatch1BM.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\EsCatch1BM\EsCatch1BM\obj\Debug\net10.0\ref\EsCatch1BM.dll

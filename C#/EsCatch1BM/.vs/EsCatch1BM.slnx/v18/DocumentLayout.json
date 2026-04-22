@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6B2B34-168A-8459-1C39-735641B11CAF}|EsCatch1BM\\EsCatch1BM.csproj|c:\\users\\asus\\source\\repos\\escatch1bm\\escatch1bm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6B2B34-168A-8459-1C39-735641B11CAF}|EsCatch1BM\\EsCatch1BM.csproj|solutionrelative:escatch1bm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6B2B34-168A-8459-1C39-735641B11CAF}|EsCatch1BM\\EsCatch1BM.csproj|c:\\users\\asus\\source\\repos\\escatch1bm\\escatch1bm\\calcolatrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6B2B34-168A-8459-1C39-735641B11CAF}|EsCatch1BM\\EsCatch1BM.csproj|solutionrelative:escatch1bm\\calcolatrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calcolatrice.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\Calcolatrice.cs",
+              "RelativeDocumentMoniker": "EsCatch1BM\\Calcolatrice.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\Calcolatrice.cs",
+              "RelativeToolTip": "EsCatch1BM\\Calcolatrice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T11:07:52.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\Program.cs",
+              "RelativeDocumentMoniker": "EsCatch1BM\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\Program.cs",
+              "RelativeToolTip": "EsCatch1BM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T11:07:35.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
