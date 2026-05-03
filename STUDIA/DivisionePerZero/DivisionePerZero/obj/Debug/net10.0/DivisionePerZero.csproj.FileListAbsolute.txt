@@ -1,0 +1,14 @@
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\bin\Debug\net10.0\DivisionePerZero.exe
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\bin\Debug\net10.0\DivisionePerZero.deps.json
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\bin\Debug\net10.0\DivisionePerZero.runtimeconfig.json
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\bin\Debug\net10.0\DivisionePerZero.dll
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\bin\Debug\net10.0\DivisionePerZero.pdb
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.AssemblyInfoInputs.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.AssemblyInfo.cs
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.csproj.CoreCompileInputs.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.dll
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\refint\DivisionePerZero.dll
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.pdb
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\DivisionePerZero.genruntimeconfig.cache
+C:\Users\enric\OneDrive\Desktop\20252026\Classe_3BII\DivisionePerZero\obj\Debug\net10.0\ref\DivisionePerZero.dll

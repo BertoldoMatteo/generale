@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.sourcelink.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\bin\Debug\net10.0\EsManutenzioneBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\bin\Debug\net10.0\EsManutenzioneBM.deps.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\bin\Debug\net10.0\EsManutenzioneBM.runtimeconfig.json
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\bin\Debug\net10.0\EsManutenzioneBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\bin\Debug\net10.0\EsManutenzioneBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\refint\EsManutenzioneBM.dll
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\EsManutenzioneBM.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsManutenzioneBM\EsManutenzioneBM\obj\Debug\net10.0\ref\EsManutenzioneBM.dll

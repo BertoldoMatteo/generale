@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\EsCatch1BM.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsCatch1BM\\EsCatch1BM\\EsCatch1BM.csproj",
       "projectName": "EsCatch1BM",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\EsCatch1BM.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsCatch1BM\\EsCatch1BM\\EsCatch1BM.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\EsCatch1BM\\EsCatch1BM\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsCatch1BM\\EsCatch1BM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\bin\Debug\EsDancerevolutionBM.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\bin\Debug\EsDancerevolutionBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\bin\Debug\EsDancerevolutionBM.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDancerevolutionBM\EsDancerevolutionBM\obj\Debug\EsDancerevolutionBM.pdb

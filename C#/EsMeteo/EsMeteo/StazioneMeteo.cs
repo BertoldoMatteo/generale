@@ -38,6 +38,33 @@ namespace EsMeteo
         public string ID
         {
             get { return id; }
+            set { id = value; }
+        }
+
+        public double Press
+        {
+            get { return press; }
+            set { press = value; }
+        }
+
+        public double[] Temp
+        {
+            get { return temp; }
+            set { temp = (double[])value.Clone(); }
+        }
+
+        public double Pioggia
+        {
+            get { return pioggia; }
+        }
+
+        public double Umid
+        {
+            get { return umid; }
+        }
+        public double Vento
+        {
+            get { return vento; }
         }
 
         public string Info()
