@@ -22,19 +22,25 @@ namespace EsDancerevolutionBM
             White
         }
 
-        private int num;
+        private int[] col;
+        private int num, point;
         private Timer timer;
         SoundPlayer musica = new SoundPlayer("musica.wav");
+        public Random rand;
 
         public Form1()
         {
             InitializeComponent();
+            col = new int[2];
             timer = new Timer();
             timer.Interval = 5000; // Imposta l'intervallo del timer a 5 secondi (5000 millisecondi)
             timer.Tick += Timer_Tick;
             timer.Start();
             SetRandomColor();
             musica.PlayLooping();
+            point = 0;
+            rand = new Random();
+            col[1] = rand.Next(0, 5);
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -52,8 +58,10 @@ namespace EsDancerevolutionBM
 
         public void button(int n)
         {
-            if (num == n)
+            if (col[0] == n)
             {
+                point++;
+                lblPoint.Text = point.ToString();
                 SetRandomColor();
                 timer.Stop();
                 timer.Start();
@@ -63,9 +71,12 @@ namespace EsDancerevolutionBM
 
         public void SetRandomColor()
         {
-            Random rand = new Random();
+            rand = new Random();
             num = rand.Next(0, 5);
-            Illumina(num);
+            col[0] = col[1];
+            col[1] = num;
+            Illumina(col[0]);
+            PreIllumina(col[1]);
         }
 
         public void Illumina(int num)
@@ -93,6 +104,44 @@ namespace EsDancerevolutionBM
                     break;
             }
         }
+
+        public void PreIllumina(int num)
+        {
+            Prereset();
+            switch (num)
+            {
+                case 0:
+                    pnlPre.BackColor = Color.Red;
+                    pnlPre.Text = "RED";
+                    break;
+                case 1:
+                    pnlPre.BackColor = Color.Yellow;
+                    pnlPre.Text = "YELLOW";
+                    break;
+                case 2:
+                        pnlPre.BackColor = Color.Blue;
+                        pnlPre.Text = "BLUE";
+                    pnlPre.ForeColor = Color.White;
+                    break;
+                case 3:
+                    pnlPre.BackColor = Color.Orange;
+                    pnlPre.Text = "ORANGE";
+                    break;
+                case 4:
+                    pnlPre.BackColor = Color.White;
+                    pnlPre.Text = "WHITE";
+                    break;
+                default:
+                    MessageBox.Show("Error");
+                    break;
+            }
+        }
+
+        public void Prereset()
+        {
+            pnlPre.ForeColor = Color.Black;
+        }
+
         public void Reset()
         {
             btnRed.BackgroundImage = Image.FromFile("frecciaE.png");

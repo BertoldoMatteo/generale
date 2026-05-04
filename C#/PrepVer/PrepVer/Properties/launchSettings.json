@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PrepVer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

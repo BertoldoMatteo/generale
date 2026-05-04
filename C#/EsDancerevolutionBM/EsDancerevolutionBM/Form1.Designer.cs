@@ -36,6 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnChange = new System.Windows.Forms.Button();
+            this.lblPoint = new System.Windows.Forms.Label();
+            this.pnlPre = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRed
@@ -121,11 +124,40 @@
             this.btnChange.UseVisualStyleBackColor = true;
             this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
+            // lblPoint
+            // 
+            this.lblPoint.AutoSize = true;
+            this.lblPoint.Location = new System.Drawing.Point(573, 74);
+            this.lblPoint.Name = "lblPoint";
+            this.lblPoint.Size = new System.Drawing.Size(0, 20);
+            this.lblPoint.TabIndex = 8;
+            // 
+            // pnlPre
+            // 
+            this.pnlPre.BackColor = System.Drawing.Color.White;
+            this.pnlPre.ForeColor = System.Drawing.Color.Black;
+            this.pnlPre.Location = new System.Drawing.Point(63, 313);
+            this.pnlPre.Name = "pnlPre";
+            this.pnlPre.Size = new System.Drawing.Size(200, 100);
+            this.pnlPre.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(60, 288);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(93, 16);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "SUCCESSIVO";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pnlPre);
+            this.Controls.Add(this.lblPoint);
             this.Controls.Add(this.btnChange);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -151,6 +183,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnChange;
+        private System.Windows.Forms.Label lblPoint;
+        private System.Windows.Forms.Panel pnlPre;
+        private System.Windows.Forms.Label label2;
     }
 }
 
