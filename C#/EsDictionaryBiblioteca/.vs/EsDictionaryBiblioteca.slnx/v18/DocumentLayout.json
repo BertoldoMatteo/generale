@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9FE97E3-CB14-40CC-A4D2-B8EBD01D97D3}|EsDictionaryBiblioteca\\EsDictionaryBiblioteca.csproj|c:\\users\\asus\\desktop\\lab_sistemi\\esdictionarybiblioteca\\esdictionarybiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9FE97E3-CB14-40CC-A4D2-B8EBD01D97D3}|EsDictionaryBiblioteca\\EsDictionaryBiblioteca.csproj|solutionrelative:esdictionarybiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9FE97E3-CB14-40CC-A4D2-B8EBD01D97D3}|EsDictionaryBiblioteca\\EsDictionaryBiblioteca.csproj|c:\\users\\asus\\desktop\\lab_sistemi\\esdictionarybiblioteca\\esdictionarybiblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9FE97E3-CB14-40CC-A4D2-B8EBD01D97D3}|EsDictionaryBiblioteca\\EsDictionaryBiblioteca.csproj|solutionrelative:esdictionarybiblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryBiblioteca\\EsDictionaryBiblioteca\\Libro.cs",
+              "RelativeDocumentMoniker": "EsDictionaryBiblioteca\\Libro.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryBiblioteca\\EsDictionaryBiblioteca\\Libro.cs",
+              "RelativeToolTip": "EsDictionaryBiblioteca\\Libro.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:16:32.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryBiblioteca\\EsDictionaryBiblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "EsDictionaryBiblioteca\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryBiblioteca\\EsDictionaryBiblioteca\\Program.cs",
+              "RelativeToolTip": "EsDictionaryBiblioteca\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwGUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T14:57:27.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

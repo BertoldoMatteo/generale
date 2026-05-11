@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\bin\Debug\net10.0\EsDictionaryBiblioteca.exe
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\bin\Debug\net10.0\EsDictionaryBiblioteca.deps.json
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\bin\Debug\net10.0\EsDictionaryBiblioteca.runtimeconfig.json
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\bin\Debug\net10.0\EsDictionaryBiblioteca.dll
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\bin\Debug\net10.0\EsDictionaryBiblioteca.pdb
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.dll
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\refint\EsDictionaryBiblioteca.dll
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.pdb
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\EsDictionaryBiblioteca.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\LAB_SISTEMI\EsDictionaryBiblioteca\EsDictionaryBiblioteca\obj\Debug\net10.0\ref\EsDictionaryBiblioteca.dll
