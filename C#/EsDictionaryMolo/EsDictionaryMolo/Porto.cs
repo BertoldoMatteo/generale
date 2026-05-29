@@ -61,6 +61,7 @@ namespace EsDictionaryMolo
         public string GestisciPartenze(Tipo TipoCarico,ref int count)
         {
             count = 0;
+            str = "";
             foreach(var i in barche)
             {
                 if (i.Value.TipoCarico == TipoCarico)
@@ -71,7 +72,7 @@ namespace EsDictionaryMolo
                 }
             }
             if (count == 0) str = $"Nessuna nave trovata con il carico di tipo : {TipoCarico.ToString()}";
-            else if (count == 1) str = $"E' stata eliminata solo una nave";
+            else if (count == 1) str += $"E' stata eliminata solo una nave";
             else str += $"Sono state trovate ed eliminate {count} navi\n";
             return str;
         }

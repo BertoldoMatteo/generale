@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsDictionaryBiblioteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0fb9c4428789a19035a5b723a9265670efb878d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+255ff65e489271d7d2de19450677b56dad6fd0e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsDictionaryBiblioteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsDictionaryBiblioteca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

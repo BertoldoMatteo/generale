@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|c:\\users\\asus\\desktop\\lab_sistemi\\esdictionarymolo\\esdictionarymolo\\porto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esdictionarymolo\\esdictionarymolo\\porto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|solutionrelative:esdictionarymolo\\porto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|c:\\users\\asus\\desktop\\lab_sistemi\\esdictionarymolo\\esdictionarymolo\\barca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esdictionarymolo\\esdictionarymolo\\barca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|solutionrelative:esdictionarymolo\\barca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|c:\\users\\asus\\desktop\\lab_sistemi\\esdictionarymolo\\esdictionarymolo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|c:\\users\\asus\\desktop\\informatica_terza\\c#\\esdictionarymolo\\esdictionarymolo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDE5CA6C-A767-C180-95A8-47506F672E65}|EsDictionaryMolo\\EsDictionaryMolo.csproj|solutionrelative:esdictionarymolo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Porto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\Porto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\Porto.cs",
               "RelativeDocumentMoniker": "EsDictionaryMolo\\Porto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\Porto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\Porto.cs",
               "RelativeToolTip": "EsDictionaryMolo\\Porto.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAmwDwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwD8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T06:12:09.559Z",
               "EditorCaption": ""
@@ -41,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Barca.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\Barca.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\Barca.cs",
               "RelativeDocumentMoniker": "EsDictionaryMolo\\Barca.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\Barca.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\Barca.cs",
               "RelativeToolTip": "EsDictionaryMolo\\Barca.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAACCAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T06:12:19.192Z",
               "EditorCaption": ""
@@ -54,11 +54,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\Program.cs",
               "RelativeDocumentMoniker": "EsDictionaryMolo\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\Program.cs",
               "RelativeToolTip": "EsDictionaryMolo\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wCAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T06:05:07.267Z",
               "EditorCaption": ""

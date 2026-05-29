@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\EsDictionaryMolo.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\EsDictionaryMolo.csproj",
       "projectName": "EsDictionaryMolo",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\EsDictionaryMolo.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\EsDictionaryMolo.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\LAB_SISTEMI\\EsDictionaryMolo\\EsDictionaryMolo\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\INFORMATICA_TERZA\\C#\\EsDictionaryMolo\\EsDictionaryMolo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

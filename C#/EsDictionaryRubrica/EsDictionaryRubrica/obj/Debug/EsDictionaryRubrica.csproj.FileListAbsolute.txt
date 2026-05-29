@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.Form1.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.Properties.Resources.resources
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\bin\Debug\EsDictionaryRubrica.exe.config
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\bin\Debug\EsDictionaryRubrica.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\bin\Debug\EsDictionaryRubrica.pdb
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.exe
+C:\Users\ASUS\Desktop\INFORMATICA_TERZA\C#\EsDictionaryRubrica\EsDictionaryRubrica\obj\Debug\EsDictionaryRubrica.pdb
